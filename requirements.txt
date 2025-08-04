@@ -1,3 +1,6 @@
+# Python version
+# python==3.11.13
+
 # Core data processing
 PyPDF2==3.0.1
 beautifulsoup4==4.12.2

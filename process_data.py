@@ -3,12 +3,11 @@ import json
 import logging
 import hashlib
 from pathlib import Path
-from typing import List, Dict, Any, Generator
+from typing import List, Dict, Any
 from dataclasses import dataclass
 from datetime import datetime
 
 import PyPDF2
-import requests
 from bs4 import BeautifulSoup
 import markdown
 from PIL import Image
@@ -18,24 +17,19 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('bilker_processing.log'),
+        logging.FileHandler('bilker_extraction.log'),
         logging.StreamHandler()
     ]
 )
 logger = logging.getLogger(__name__)
 
 @dataclass
-class ProcessingConfig:
+class ExtractionConfig:
     max_chunk_size: int = 4000  
     overlap_size: int = 200     
-
-    local_model: str = "llama3.1:8b"
-    ollama_url: str = "http://localhost:11434"
     
     data_dir: Path = Path("data")
-    processed_dir: Path = Path("processed")
     chunks_dir: Path = Path("processed/chunks")
-    formatted_dir: Path = Path("processed/formatted")
     metadata_dir: Path = Path("processed/metadata")
     
     enable_ocr: bool = True
@@ -43,7 +37,7 @@ class ProcessingConfig:
     skip_existing: bool = True
 
 class DocumentChunker:
-    def __init__(self, config: ProcessingConfig):
+    def __init__(self, config: ExtractionConfig):
         self.config = config
     
     def chunk_text(self, text: str, title: str = "", doc_type: str = "") -> List[Dict[str, Any]]:
@@ -71,7 +65,7 @@ class DocumentChunker:
                 'chunk_id': len(chunks),
                 'title': title,
                 'doc_type': doc_type,
-                'total_chunks': -1,  
+                'total_chunks': -1,  # Will be updated
                 'overlap_start': i > 0,
                 'overlap_end': i + chunk_size < len(words)
             })
@@ -83,7 +77,7 @@ class DocumentChunker:
         return chunks
 
 class PDFExtractor:
-    def __init__(self, config: ProcessingConfig):
+    def __init__(self, config: ExtractionConfig):
         self.config = config
     
     def extract_pdf(self, pdf_path: Path) -> Dict[str, Any]:
@@ -102,9 +96,10 @@ class PDFExtractor:
                 
                 metadata = {
                     'filename': pdf_path.name,
+                    'file_path': str(pdf_path),
                     'num_pages': len(reader.pages),
                     'title': getattr(reader.metadata, 'title', pdf_path.stem) if reader.metadata else pdf_path.stem,
-                    'doc_type': 'research_paper' if 'pdf' in pdf_path.suffix.lower() else 'document'
+                    'doc_type': self._classify_pdf_type(pdf_path)
                 }
                 
                 full_text = '\n\n'.join([page['text'] for page in text_content])
@@ -118,43 +113,61 @@ class PDFExtractor:
         except Exception as e:
             logger.error(f"Error processing PDF {pdf_path}: {str(e)}")
             return None
+    
+    def _classify_pdf_type(self, pdf_path: Path) -> str:
+        path_parts = str(pdf_path).lower()
+        
+        if any(keyword in path_parts for keyword in ['writeup', 'solution', 'walkthrough']):
+            return 'writeup'
+        elif any(keyword in path_parts for keyword in ['research', 'paper', 'analysis', 'evaluation']):
+            return 'research_paper'
+        elif any(keyword in path_parts for keyword in ['challenge', 'ctf', 'competition']):
+            return 'challenge'
+        else:
+            return 'document'
 
 class MarkdownExtractor:
-    def __init__(self, config: ProcessingConfig):
+    def __init__(self, config: ExtractionConfig):
         self.config = config
-
-    # Extract metadata and content from md files    
+    
     def extract_markdown(self, md_path: Path) -> Dict[str, Any]:
         try:
             with open(md_path, 'r', encoding='utf-8') as file:
                 content = file.read()
             
-            # Parse md for structure
-            md = markdown.Markdown(extensions=['toc', 'fenced_code'])
-            html = md.convert(content)
-            
             metadata = {
                 'filename': md_path.name,
+                'file_path': str(md_path),
                 'title': md_path.stem.replace('-', ' ').replace('_', ' ').title(),
-                'doc_type': 'writeup' if 'writeup' in md_path.name.lower() else 'documentation'
+                'doc_type': self._classify_markdown_type(md_path)
             }
             
             return {
                 'metadata': metadata,
-                'content': content,
-                'html': html
+                'content': content
             }
         
         except Exception as e:
             logger.error(f"Error processing Markdown {md_path}: {str(e)}")
             return None
+    
+    def _classify_markdown_type(self, md_path: Path) -> str:
+        path_parts = str(md_path).lower()
+        
+        if any(keyword in path_parts for keyword in ['writeup', 'solution', 'walkthrough']):
+            return 'writeup'
+        elif any(keyword in path_parts for keyword in ['readme', 'documentation', 'guide']):
+            return 'documentation'
+        elif any(keyword in path_parts for keyword in ['cheat', 'reference', 'resource']):
+            return 'reference'
+        else:
+            return 'documentation'
 
 class CodeExtractor:
-    def __init__(self, config: ProcessingConfig):
+    def __init__(self, config: ExtractionConfig):
         self.config = config
-        self.code_extensions = {'.py', '.c', '.cpp', '.h', '.sh', '.js', '.java', '.php', '.rb', '.go'}
+        self.code_extensions = {'.py', '.c', '.cpp', '.h', '.sh', '.js', '.java', '.php', '.rb', '.go', '.rs'}
     
-    # Extract code files with context
     def extract_code(self, code_path: Path) -> Dict[str, Any]:
         try:
             with open(code_path, 'r', encoding='utf-8', errors='ignore') as file:
@@ -162,18 +175,16 @@ class CodeExtractor:
             
             metadata = {
                 'filename': code_path.name,
+                'file_path': str(code_path),
                 'language': code_path.suffix[1:] if code_path.suffix else 'text',
                 'title': f"Code: {code_path.name}",
-                'doc_type': 'code'
+                'doc_type': 'code',
+                'context': self._get_code_context(code_path)
             }
-            
-            # Context based on dir structure
-            context_info = self._get_code_context(code_path)
             
             return {
                 'metadata': metadata,
-                'content': content,
-                'context': context_info
+                'content': content
             }
         
         except Exception as e:
@@ -184,24 +195,21 @@ class CodeExtractor:
         parts = code_path.parts
         context_clues = []
         
-        # Extract context from dir
         for part in parts:
-            if any(keyword in part.lower() for keyword in ['ctf', 'challenge', 'exploit', 'pwn', 'crypto', 'web', 'reverse']):
+            if any(keyword in part.lower() for keyword in ['ctf', 'challenge', 'exploit', 'pwn', 'crypto', 'web', 'reverse', 'forensics']):
                 context_clues.append(part)
         
-        # Look for README or documentation in same directory
         readme_files = list(code_path.parent.glob('README*')) + list(code_path.parent.glob('*.md'))
         if readme_files:
-            context_clues.append(f"Documentation available: {readme_files[0].name}")
+            context_clues.append(f"Documentation: {readme_files[0].name}")
         
         return " | ".join(context_clues) if context_clues else "General code file"
 
 class ImageExtractor:
-    def __init__(self, config: ProcessingConfig):
+    def __init__(self, config: ExtractionConfig):
         self.config = config
         self.image_extensions = {'.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff'}
-
-    # Extract text from images using OCR
+    
     def extract_image_text(self, image_path: Path) -> Dict[str, Any]:
         if not self.config.enable_ocr:
             return None
@@ -212,6 +220,7 @@ class ImageExtractor:
             
             metadata = {
                 'filename': image_path.name,
+                'file_path': str(image_path),
                 'title': f"Image: {image_path.name}",
                 'doc_type': 'image',
                 'ocr_extracted': True
@@ -219,139 +228,209 @@ class ImageExtractor:
             
             return {
                 'metadata': metadata,
-                'content': text.strip() if text.strip() else "No text detected in image",
-                'image_path': str(image_path)
+                'content': text.strip() if text.strip() else "No text detected in image"
             }
         
         except Exception as e:
             logger.error(f"Error processing image {image_path}: {str(e)}")
             return None
 
-class LLMFormatter:    
-    def __init__(self, config: ProcessingConfig):
+class DataExtractor:
+    def __init__(self, config: ExtractionConfig):
         self.config = config
-    
-    def format_to_qa(self, chunk: Dict[str, Any]) -> List[Dict[str, str]]:
-        try:
-            doc_type = chunk.get('doc_type', 'document')
-            title = chunk.get('title', 'Unknown')
-            content = chunk['text']
-            
-            prompt = self._create_formatting_prompt(content, doc_type, title)
-            
-            response = self._call_local_llm(prompt)
-            qa_pairs = self._parse_llm_response(response)
-            
-            return qa_pairs
+        self.chunker = DocumentChunker(config)
+        self.pdf_extractor = PDFExtractor(config)
+        self.md_extractor = MarkdownExtractor(config)
+        self.code_extractor = CodeExtractor(config)
+        self.image_extractor = ImageExtractor(config)
         
-        except Exception as e:
-            logger.error(f"Error formatting chunk: {str(e)}")
-            return []
+        # Create directories
+        self._setup_directories()
+        
+        # Processing statistics
+        self.stats = {
+            'files_processed': 0,
+            'chunks_created': 0,
+            'errors': 0,
+            'skipped_existing': 0
+        }
     
-    def _create_formatting_prompt(self, content: str, doc_type: str, title: str) -> str:
-        base_instruction = """
-Convert the following content into high-quality question-answer pairs for training a CTF/cybersecurity AI assistant.
-
-Focus on:
-- Technical procedures and methodologies
-- Tool usage and commands
-- Vulnerability analysis and exploitation techniques
-- Code explanations and security concepts
-- Step-by-step problem-solving approaches
-
-Format each Q&A pair as:
-Q: [specific, actionable question]
-A: [detailed, technical answer with examples where appropriate]
-
-Ensure answers are comprehensive but concise, suitable for training an AI assistant."""
-
-        type_specific = {
-            'research_paper': "Focus on extracting methodologies, findings, and technical approaches from this research paper.",
-            'writeup': "Extract step-by-step problem-solving procedures and techniques from this CTF writeup.",
-            'code': "Explain the code functionality, security implications, and usage context.",
-            'documentation': "Extract practical guidance, procedures, and reference information.",
-            'image': "Format any technical information or procedures visible in this image content."
+    def _setup_directories(self):
+        for directory in [self.config.chunks_dir, self.config.metadata_dir]:
+            directory.mkdir(parents=True, exist_ok=True)
+    
+    def extract_all_data(self) -> Dict[str, Any]:
+        logger.info("Starting data extraction and chunking...")
+        
+        all_files = self._discover_files()
+        logger.info(f"Discovered {len(all_files)} files to process")
+        
+        for file_path in all_files:
+            try:
+                self._process_single_file(file_path)
+                self.stats['files_processed'] += 1
+                
+                if self.stats['files_processed'] % 100 == 0:
+                    logger.info(f"Processed {self.stats['files_processed']} files...")
+            
+            except Exception as e:
+                logger.error(f"Error processing {file_path}: {str(e)}")
+                self.stats['errors'] += 1
+        
+        self._save_processing_summary()
+        
+        logger.info(f"Extraction complete! {self.stats}")
+        return self.stats
+    
+    def _discover_files(self) -> List[Path]:
+        files = []
+        
+        for root, dirs, filenames in os.walk(self.config.data_dir):
+            for filename in filenames:
+                file_path = Path(root) / filename
+                
+                if (filename.startswith('.') or 
+                    filename.endswith('.log') or
+                    file_path.suffix.lower() in {'.zip', '.tar', '.gz'}):
+                    continue
+                
+                files.append(file_path)
+        
+        return files
+    
+    def _process_single_file(self, file_path: Path):
+        # Generate unique file ID
+        file_id = hashlib.md5(str(file_path).encode()).hexdigest()[:8]
+        
+        # Skip if already processed
+        if self.config.skip_existing:
+            existing_file = self.config.chunks_dir / f"{file_id}_chunks.json"
+            if existing_file.exists():
+                logger.debug(f"Skipping {file_path} (already processed)")
+                self.stats['skipped_existing'] += 1
+                return
+        
+        logger.info(f"Processing: {file_path}")
+        
+        # Extract content based on file type
+        extracted_data = self._extract_content(file_path)
+        if not extracted_data:
+            return
+        
+        # Chunk the content
+        chunks = self.chunker.chunk_text(
+            extracted_data['content'],
+            extracted_data['metadata']['title'],
+            extracted_data['metadata']['doc_type']
+        )
+        
+        self.stats['chunks_created'] += len(chunks)
+        
+        # Save chunks with complete metadata
+        chunks_file = self.config.chunks_dir / f"{file_id}_chunks.json"
+        with open(chunks_file, 'w', encoding='utf-8') as f:
+            json.dump({
+                'file_path': str(file_path),
+                'file_id': file_id,
+                'metadata': extracted_data['metadata'],
+                'chunks': chunks,
+                'extraction_stats': {
+                    'total_chunks': len(chunks),
+                    'content_length': len(extracted_data['content']),
+                    'processing_date': datetime.now().isoformat()
+                }
+            }, f, indent=2, ensure_ascii=False)
+        
+        logger.debug(f"Created {len(chunks)} chunks for {file_path.name}")
+    
+    def _extract_content(self, file_path: Path) -> Dict[str, Any]:
+        suffix = file_path.suffix.lower()
+        
+        if suffix == '.pdf':
+            return self.pdf_extractor.extract_pdf(file_path)
+        
+        elif suffix in ['.md', '.markdown']:
+            return self.md_extractor.extract_markdown(file_path)
+        
+        elif suffix in self.code_extractor.code_extensions:
+            return self.code_extractor.extract_code(file_path)
+        
+        elif suffix in self.image_extractor.image_extensions:
+            return self.image_extractor.extract_image_text(file_path)
+        
+        elif suffix in ['.txt', '.rst', '.log']:
+            try:
+                with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+                    content = f.read()
+                
+                return {
+                    'metadata': {
+                        'filename': file_path.name,
+                        'file_path': str(file_path),
+                        'title': file_path.stem,
+                        'doc_type': self._classify_text_type(file_path)
+                    },
+                    'content': content
+                }
+            except Exception as e:
+                logger.error(f"Error reading text file {file_path}: {str(e)}")
+                return None
+        
+        else:
+            logger.debug(f"Skipping unsupported file type: {file_path}")
+            return None
+    
+    def _classify_text_type(self, file_path: Path) -> str:
+        path_parts = str(file_path).lower()
+        
+        if any(keyword in path_parts for keyword in ['writeup', 'solution', 'walkthrough']):
+            return 'writeup'
+        elif any(keyword in path_parts for keyword in ['challenge', 'ctf']):
+            return 'challenge'
+        elif any(keyword in path_parts for keyword in ['log', 'output']):
+            return 'log'
+        else:
+            return 'text'
+    
+    def _save_processing_summary(self):
+        summary = {
+            'extraction_date': datetime.now().isoformat(),
+            'statistics': self.stats,
+            'config': {
+                'max_chunk_size': self.config.max_chunk_size,
+                'overlap_size': self.config.overlap_size,
+                'enable_ocr': self.config.enable_ocr,
+                'enable_code_extraction': self.config.enable_code_extraction
+            },
+            'next_steps': [
+                "Run chunk_processor.py to generate Q&A pairs from chunks",
+                "Chunks are saved in processed/chunks/ directory",
+                "Each chunk file contains metadata and text chunks ready for Q&A generation"
+            ]
         }
         
-        specific_instruction = type_specific.get(doc_type, "Extract relevant technical knowledge and procedures.")
+        summary_file = self.config.metadata_dir / "extraction_summary.json"
+        with open(summary_file, 'w', encoding='utf-8') as f:
+            json.dump(summary, f, indent=2, ensure_ascii=False)
         
-        return f"""{base_instruction}
+        logger.info(f"Extraction summary saved to {summary_file}")
 
-{specific_instruction}
-
-Document: {title}
-Content:
-{content}
-
-Generate Q&A pairs:"""
-    # Formats content into Q&A using LLM
-    def _call_local_llm(self, prompt: str) -> str:
-        try:
-            payload = {
-                "model": self.config.local_model,
-                "prompt": prompt,
-                "stream": False,
-                "options": {
-                    "temperature": 0.3,
-                    "top_p": 0.9
-                }
-            }
-            
-            response = requests.post(
-                f"{self.config.ollama_url}/api/generate",
-                json=payload,
-                timeout=300
-            )
-            
-            if response.status_code == 200:
-                return response.json().get('response', '')
-            else:
-                logger.error(f"LLM API error: {response.status_code}")
-                return ""
-        
-        except Exception as e:
-            logger.error(f"Error calling local LLM: {str(e)}")
-            return ""
+def main():
+    config = ExtractionConfig()
     
-    # Parses LLM for current Q&A pairs
-    def _parse_llm_response(self, response: str) -> List[Dict[str, str]]:
-        qa_pairs = []
-        lines = response.split('\n')
-        
-        current_q = ""
-        current_a = ""
-        in_answer = False
-        
-        for line in lines:
-            line = line.strip()
-            
-            if line.startswith('Q:') or line.startswith('Question:'):
-                # Save previous Q&A if exists
-                if current_q and current_a:
-                    qa_pairs.append({
-                        'question': current_q.strip(),
-                        'answer': current_a.strip()
-                    })
-                
-                current_q = line.replace('Q:', '').replace('Question:', '').strip()
-                current_a = ""
-                in_answer = False
-            
-            elif line.startswith('A:') or line.startswith('Answer:'):
-                current_a = line.replace('A:', '').replace('Answer:', '').strip()
-                in_answer = True
-            
-            elif in_answer and line:
-                current_a += " " + line
-            
-            elif not in_answer and current_q and line:
-                current_q += " " + line
-        
-        # Save final Q&A pair
-        if current_q and current_a:
-            qa_pairs.append({
-                'question': current_q.strip(),
-                'answer': current_a.strip()
-            })
-        
-        return qa_pairs
+    if not config.data_dir.exists():
+        logger.error(f"Data directory not found: {config.data_dir}")
+        logger.error("Please create the data directory and add your source files")
+        return
+    
+    extractor = DataExtractor(config)
+    
+    results = extractor.extract_all_data()
+    
+    print(f"Files processed: {results['files_processed']}")
+    print(f"Files skipped (already processed): {results['skipped_existing']}")
+    print(f"Chunks created: {results['chunks_created']}")
+    print(f"Errors encountered: {results['errors']}")
+    print(f"\nChunks saved in: {config.chunks_dir}")
+if __name__ == "__main__":
+    main()
