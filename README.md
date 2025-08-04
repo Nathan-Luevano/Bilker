@@ -46,8 +46,8 @@ From comprehensive cybersecurity dataset including PicoCTF challenges, HackTheBo
 
 ## Status
 
-**Complete**: Data processing pipeline, training dataset generation
-**In Progress**: QLoRA fine-tuning implementation
-**Planned**: Model deployment and evaluation
+- **Complete**: Data processing pipeline, training dataset generation
+- **In Progress**: QLoRA fine-tuning implementation
+- **Planned**: Model deployment and evaluation
 
 Built for cybersecurity education and ethical security research.
