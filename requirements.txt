@@ -1,0 +1,21 @@
+# Core data processing
+PyPDF2==3.0.1
+beautifulsoup4==4.12.2
+requests==2.31.0
+markdown==3.5.1
+Pillow==10.1.0
+pytesseract==0.3.10
+
+# OCR system dependency
+sudo apt-get install tesseract-ocr
+
+# File handling
+pathlib2==2.3.7
+
+#Future
+torch>=2.0.0
+transformers>=4.36.0
+peft>=0.7.1
+bitsandbytes>=0.41.3
+accelerate>=0.25.0
+datasets>=2.14.7
