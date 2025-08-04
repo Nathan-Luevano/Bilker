@@ -1,5 +1,7 @@
 # Bilker
 
+![til](./Bilker_GIF.gif)
+
 **CTF/Cybersecurity AI Assistant using QLoRA Fine-tuning**
 
 Transforms diverse cybersecurity educational content (research papers, CTF writeups, exploit code) into training datasets for specialized AI assistant development.
