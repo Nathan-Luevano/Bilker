@@ -1,0 +1,2290 @@
+├── An Analysis and Evaluation of Open Source Capture the Flag Platforms as Cybersecurity e-Learning Tools.pdf
+├── Awesome Sec Challenges
+│   └── Machine Learning CTF Challenges
+│       └── Dolos [Easy]
+│           └── Machine_Learning_CTF_Challenges
+│               ├── DolosII_ML_CTF_Challenge
+│               │   ├── app.py
+│               │   ├── dockerfile
+│               │   ├── Images
+│               │   │   ├── Banner1.PNG
+│               │   │   ├── README.md
+│               │   │   ├── Web_App1.PNG
+│               │   │   ├── Web_App2.PNG
+│               │   │   ├── Web_App3.PNG
+│               │   │   ├── Web_App4.PNG
+│               │   │   ├── Web_App5.PNG
+│               │   │   ├── Web_App6.PNG
+│               │   │   ├── Web_App7.PNG
+│               │   │   ├── Web_App8.PNG
+│               │   │   └── Web_App.PNG
+│               │   ├── README.md
+│               │   ├── requirements.txt
+│               │   ├── Solution
+│               │   │   └── README.md
+│               │   └── templates
+│               │       └── index.html
+│               ├── Dolos_ML_CTF_Challenge
+│               │   ├── aiexecuter.py
+│               │   ├── app.py
+│               │   ├── dockerfile
+│               │   ├── Images
+│               │   │   ├── Banner1.PNG
+│               │   │   ├── Web_App1.PNG
+│               │   │   ├── Web_App2.PNG
+│               │   │   ├── Web_App3.PNG
+│               │   │   ├── Web_App4.PNG
+│               │   │   ├── Web_App5.PNG
+│               │   │   ├── Web_App6.PNG
+│               │   │   ├── Web_App7.PNG
+│               │   │   ├── Web_App8.PNG
+│               │   │   ├── Web_App9.PNG
+│               │   │   └── Web_App.PNG
+│               │   ├── M0st$3cur3FLAG.txt
+│               │   ├── README.md
+│               │   ├── requirements.txt
+│               │   ├── Solution
+│               │   │   └── README.md
+│               │   ├── start.py
+│               │   └── templates
+│               │       └── index.html
+│               ├── Fourtune_ML_CTF_Challenge
+│               │   ├── Images
+│               │   │   ├── 1_layers_NN.PNG
+│               │   │   ├── 2_training_config_adadelta.PNG
+│               │   │   ├── 3_categorical_crossentropy.PNG
+│               │   │   ├── 4_batch_input_shape.PNG
+│               │   │   ├── 5_bias0.PNG
+│               │   │   ├── 5_dense2_softmax.PNG
+│               │   │   ├── Banner.PNG
+│               │   │   ├── Network.PNG
+│               │   │   └── Web_app.PNG
+│               │   ├── model.h5
+│               │   ├── README.md
+│               │   ├── server.py
+│               │   ├── Solution
+│               │   │   ├── README.md
+│               │   │   └── solution.py
+│               │   └── templates
+│               │       └── AICorp.html
+│               ├── Heist_ML_CTF_Challenge
+│               │   ├── app.py
+│               │   ├── creds.json
+│               │   ├── dockerfile
+│               │   ├── Images
+│               │   │   ├── Banner.PNG
+│               │   │   ├── CTFHomePage.PNG
+│               │   │   ├── Solution_AdminPage_1.PNG
+│               │   │   ├── Solution_AdminPage_Code_1.PNG
+│               │   │   ├── Solution_AdminPage_Code_2.PNG
+│               │   │   ├── Solution_AdminPage_Message_1.PNG
+│               │   │   ├── Solution_Bypassed_2.PNG
+│               │   │   ├── Solution_CityPoliceHomePage_1.PNG
+│               │   │   ├── Solution_Colab_1.PNG
+│               │   │   ├── Solution_gobuster_1.PNG
+│               │   │   ├── Solution_HomePage_1.PNG
+│               │   │   ├── Solution_Train_1.PNG
+│               │   │   └── Solution_Train_2.PNG
+│               │   ├── models
+│               │   │   ├── FirstGateModel.h5
+│               │   │   └── SecondGateModel.h5
+│               │   ├── README.md
+│               │   ├── requirements.txt
+│               │   ├── Solution
+│               │   │   └── README.md
+│               │   ├── static
+│               │   │   ├── Busted.mp4
+│               │   │   ├── Bypassed.mp4
+│               │   │   └── policecar.PNG
+│               │   ├── templates
+│               │   │   ├── CTFHomePage.html
+│               │   │   ├── home.html
+│               │   │   ├── index.html
+│               │   │   └── login.html
+│               │   └── uploads
+│               │       └── emptyfile
+│               ├── Persuade_ML_CTF_Challenge
+│               │   ├── app
+│               │   │   ├── app.py
+│               │   │   ├── backend_docs
+│               │   │   │   └── myfile.txt
+│               │   │   ├── InternalFolder
+│               │   │   │   └── Flag.txt
+│               │   │   ├── robots.txt
+│               │   │   └── templates
+│               │   │       └── upload.html
+│               │   ├── dockerfile
+│               │   ├── Images
+│               │   │   ├── backend_docs.PNG
+│               │   │   ├── Banner.PNG
+│               │   │   ├── base64.PNG
+│               │   │   ├── Dirb_Scan.PNG
+│               │   │   ├── huggingface.PNG
+│               │   │   ├── modelscan.PNG
+│               │   │   ├── Robots_txt.PNG
+│               │   │   ├── torch_issue.PNG
+│               │   │   ├── Unsafemodel_1.PNG
+│               │   │   ├── Unsafemodel_2.PNG
+│               │   │   ├── Web_App1.PNG
+│               │   │   ├── Web_App2.PNG
+│               │   │   └── Web_App.PNG
+│               │   ├── README.md
+│               │   ├── requirements.txt
+│               │   └── Solution
+│               │       └── README.md
+│               ├── README.md
+│               └── Vault_ML_CTF_Challenge
+│                   ├── app.py
+│                   ├── dockerfile
+│                   ├── images
+│                   │   ├── 10.PNG
+│                   │   ├── 11.PNG
+│                   │   ├── 12.PNG
+│                   │   ├── 13.PNG
+│                   │   ├── 14.PNG
+│                   │   ├── 15.PNG
+│                   │   ├── 16.PNG
+│                   │   ├── 17.PNG
+│                   │   ├── 18.PNG
+│                   │   ├── 19.PNG
+│                   │   ├── 1.PNG
+│                   │   ├── 20.PNG
+│                   │   ├── 21.PNG
+│                   │   ├── 22.PNG
+│                   │   ├── 23.PNG
+│                   │   ├── 24.PNG
+│                   │   ├── 25.PNG
+│                   │   ├── 26.PNG
+│                   │   ├── 27.PNG
+│                   │   ├── 28.PNG
+│                   │   ├── 29.PNG
+│                   │   ├── 2.PNG
+│                   │   ├── 30.PNG
+│                   │   ├── 31.PNG
+│                   │   ├── 32.PNG
+│                   │   ├── 33.PNG
+│                   │   ├── 34.PNG
+│                   │   ├── 35.PNG
+│                   │   ├── 36.PNG
+│                   │   ├── 37.PNG
+│                   │   ├── 38.PNG
+│                   │   ├── 39.PNG
+│                   │   ├── 3.PNG
+│                   │   ├── 40.PNG
+│                   │   ├── 4.PNG
+│                   │   ├── 5.PNG
+│                   │   ├── 6.PNG
+│                   │   ├── 7.PNG
+│                   │   ├── 8.PNG
+│                   │   ├── 9.PNG
+│                   │   ├── access_granted.PNG
+│                   │   ├── backgrnd.jpg
+│                   │   ├── banner.PNG
+│                   │   ├── home_backgrnd.jpg
+│                   │   ├── home.PNG
+│                   │   ├── Inversed_Images.PNG
+│                   │   ├── model_config.PNG
+│                   │   ├── README.md
+│                   │   └── training_config.PNG
+│                   ├── README.md
+│                   ├── requirements.txt
+│                   ├── Solution
+│                   │   └── README.md
+│                   └── templates
+│                       ├── home.html
+│                       └── index.html
+├── Capture the Flag competitions for Higher Education.pdf
+├── CyberStart-2024
+│   ├── assets
+│   │   ├── 610enc0dedpassword1.png
+│   │   ├── adangerouscontact1.png
+│   │   ├── adangerouscontact2.png
+│   │   ├── allzippedup1.png
+│   │   ├── ancientattachment1.pst
+│   │   ├── argentineambush1.jpg
+│   │   ├── arttheif1.zip
+│   │   ├── asecretrendezvous1.png
+│   │   ├── athensarrest1.png
+│   │   ├── baffledbybrowsers1.png
+│   │   ├── baffledbybrowsers2.png
+│   │   ├── barcodebonanza1.jpg
+│   │   ├── barcodebonanza2.jpg
+│   │   ├── barcodebonanza3.jpg
+│   │   ├── barcodebonanza4.jpg
+│   │   ├── bashthebotnet1.png
+│   │   ├── bendikkelovesaxes1.png
+│   │   ├── bendikkelovesaxes2.png
+│   │   ├── bikefan1.png
+│   │   ├── binarybattle1
+│   │   ├── binarymemories1.png
+│   │   ├── binarymemories2
+│   │   ├── boatmissing2.jpg
+│   │   ├── bogdansdata1.png
+│   │   ├── brazilianblather1.pcapng
+│   │   ├── breakingbottles1.png
+│   │   ├── breakingbottles2.png
+│   │   ├── breakingbottles3.png
+│   │   ├── brokenbanks1.png
+│   │   ├── brutestrength1.png
+│   │   ├── brutestrength2.zip
+│   │   ├── brutestrength3.py
+│   │   ├── bypass1.png
+│   │   ├── changeofplan1.py
+│   │   ├── changeofplan2.txt
+│   │   ├── chillycommand1.png
+│   │   ├── chillycommand1.xml
+│   │   ├── chillycommand2.png
+│   │   ├── chirpingchorizo1.mp3
+│   │   ├── choppercheck-in1.png
+│   │   ├── choppercheck-in.png
+│   │   ├── codeattack1
+│   │   ├── coldfile1
+│   │   ├── confused1.png
+│   │   ├── cookiejar1.png
+│   │   ├── coolrecovery1.png
+│   │   ├── coolrecovery2.zip
+│   │   ├── corrupted1.png
+│   │   ├── corruptedcorruption2.zip
+│   │   ├── CyberstartBanner.png
+│   │   ├── CyberstartLogo.png
+│   │   ├── dangerouscomment1.png
+│   │   ├── danteincommand1.png
+│   │   ├── dashdelete1.png
+│   │   ├── dearjohn1
+│   │   ├── dearjohn2.txt
+│   │   ├── decryptionring1.jpg
+│   │   ├── dockingport1.png
+│   │   ├── dodgydealers1.pcapng
+│   │   ├── dubiousjobs1.png
+│   │   ├── dubiousjobs2.pcapng
+│   │   ├── encrypted1
+│   │   ├── encrypted1.jpg
+│   │   ├── executable1.png
+│   │   ├── filefound1.png
+│   │   ├── filefound2.jpeg
+│   │   ├── filteredcola1.jpg
+│   │   ├── finalbid1.txt
+│   │   ├── finalbid2.png
+│   │   ├── fingerprints1.jpg
+│   │   ├── firstcontact1.png
+│   │   ├── firstcontact.png
+│   │   ├── floattothetop1
+│   │   ├── footprintsinthesnow1.pdf
+│   │   ├── galacticgreetings1.png
+│   │   ├── galacticgreetings.png
+│   │   ├── grandoldruble1.png
+│   │   ├── grandoldruble2.png
+│   │   ├── hashem1.png
+│   │   ├── hastyaction1.png
+│   │   ├── helloworld1.png
+│   │   ├── helloworld.png
+│   │   ├── hextraordinary1.png
+│   │   ├── hextraordinary2.png
+│   │   ├── hiddenbear1.png
+│   │   ├── hiddenbear2.jpg
+│   │   ├── hiddenboats1.png
+│   │   ├── hiddencentrifuge1.png
+│   │   ├── hiddencentrifuge2.png
+│   │   ├── hiddenhyena1.png
+│   │   ├── hiddenhyena2.pcapng
+│   │   ├── hiddenreport1.jpg
+│   │   ├── hidra1.png
+│   │   ├── hidra2.png
+│   │   ├── hidra3.txt
+│   │   ├── Introduction1.1.mp4
+│   │   ├── islandimage1.png
+│   │   ├── lazylockedlogin1.png
+│   │   ├── lazylockedlogin2.png
+│   │   ├── lazylockedloginnew1.png
+│   │   ├── lazylockedlogin.png
+│   │   ├── listicle1.jpg
+│   │   ├── lockdown1.png
+│   │   ├── lockeddoors1.png
+│   │   ├── loopylogin1.png
+│   │   ├── lostbutnotforgotten1.png
+│   │   ├── lostkey1.png
+│   │   ├── lostkey2.jpg
+│   │   ├── luckythrow1.png
+│   │   ├── maggiesfile1.png
+│   │   ├── masaimystery1.zip
+│   │   ├── masaimystery2.jpg
+│   │   ├── mathsatlightspeed1.png
+│   │   ├── mathsatlightspeed2.png
+│   │   ├── memories1
+│   │   ├── miguelthemoneyman1.jpg
+│   │   ├── miguelthemoneyman2.jpg
+│   │   ├── missingimage1.jpg
+│   │   ├── missionextension1.jpg
+│   │   ├── mixedupmessages.png
+│   │   ├── morebrokenbicycles1.jpg
+│   │   ├── movingmixup1.jpg
+│   │   ├── newracer1.zip
+│   │   ├── newracer2.txt
+│   │   ├── newracer3.jpg
+│   │   ├── newracer4.jpg
+│   │   ├── oddfile1
+│   │   ├── offbalance1.png
+│   │   ├── openbox1.jpg
+│   │   ├── openbox1.png
+│   │   ├── outofsight1.png
+│   │   ├── overflowegor1.png
+│   │   ├── peculiarportfolio1.jpg
+│   │   ├── perilouspencils1.jpg
+│   │   ├── perilouspencils2.jpg
+│   │   ├── perilouspencils3.jpg
+│   │   ├── perplexedbypixels1.png
+│   │   ├── perplexedbypixels2.png
+│   │   ├── phishingforflemming1.png
+│   │   ├── photerapide2.png
+│   │   ├── photorapide1.png
+│   │   ├── pictureimperfect1.png
+│   │   ├── pictureimperfect2.jpg
+│   │   ├── pictureinpicture1.jpg
+│   │   ├── pictureinpicture2.jpg
+│   │   ├── pictureinpicture3.jpg
+│   │   ├── pictureinpicture4.jpg
+│   │   ├── pictureinpicture5.jpg
+│   │   ├── portofcall1.png
+│   │   ├── portservice1.png
+│   │   ├── qr.gif1.gif
+│   │   ├── racetowhere1.png
+│   │   ├── recibo1.png
+│   │   ├── recibo2.txt
+│   │   ├── recibo3.jpg
+│   │   ├── recibo4.jpg
+│   │   ├── recibo5.jpg
+│   │   ├── recibo6.jpg
+│   │   ├── recibo7.jpg
+│   │   ├── remoteaccess1.png
+│   │   ├── remoteaccess2.evtx
+│   │   ├── reportpartone1.pcap
+│   │   ├── reportpartone2.png
+│   │   ├── reportparttwo1.pcapng
+│   │   ├── reportparttwo2.png
+│   │   ├── rezapped1.png
+│   │   ├── routeintotherouter1.png
+│   │   ├── runningman1.png
+│   │   ├── runningreport1.png
+│   │   ├── runningreport2.pcapng
+│   │   ├── secretpages1.png
+│   │   ├── secretsource1.png
+│   │   ├── shinjisdrone1.png
+│   │   ├── shinjisdrone.png
+│   │   ├── shippinglanes1.png
+│   │   ├── shoppingforsecrets1.png
+│   │   ├── shutterspeed1.jpg
+│   │   ├── silverservice1.png
+│   │   ├── snakecharmer1.png
+│   │   ├── snakesinmotion1.py
+│   │   ├── snakesinmotion2.txt
+│   │   ├── socialengineering.png
+│   │   ├── socialsafari1.png
+│   │   ├── socialsecret1.png
+│   │   ├── spamrobot1.txt
+│   │   ├── startlinesetback2.jpg
+│   │   ├── startlinesetback.jpg
+│   │   ├── steppingup1
+│   │   ├── stillhiding1.png
+│   │   ├── suspiciousselfie1.png
+│   │   ├── suspiciousselfie2.png
+│   │   ├── taygabears1.jpg
+│   │   ├── textandtext1.jpg
+│   │   ├── textandtext2
+│   │   ├── textandtext3
+│   │   ├── thecompetitorrevealed1.png
+│   │   ├── thefinalcountdown.png
+│   │   ├── theinsider1.png
+│   │   ├── theinsider2
+│   │   ├── therocketeer1.png
+│   │   ├── therocketeer.png
+│   │   ├── toomuchtext1.jpg
+│   │   ├── trialbyfile1
+│   │   ├── trialbyfile2.png
+│   │   ├── trialbyfile3.png
+│   │   ├── trialbyfile4.png
+│   │   ├── trialbyfile5.png
+│   │   ├── trojanhorse1.png
+│   │   ├── trojanhorse2.zip
+│   │   ├── tshirttrivia1.jpg
+│   │   ├── underattack1.png
+│   │   ├── unfamiliarfiles1.png
+│   │   ├── unfamiliarfiles2.exe
+│   │   ├── Untitled.png
+│   │   ├── upgradespaaa1.png
+│   │   ├── uphilsection1.pcapng
+│   │   ├── uphilsection2.jpg
+│   │   ├── uphilsection3.jpg
+│   │   ├── urgentescalation1.log
+│   │   ├── urgentescalation2.png
+│   │   ├── userwho1.jpg
+│   │   ├── viciousvoicemail1.wav
+│   │   ├── volatilememory1.jpg
+│   │   ├── wakeupalarm1.jpg
+│   │   ├── wordonthestreet1.png
+│   │   ├── yakoocars1.png
+│   │   ├── YakooCars1.png
+│   │   └── zapped1.png
+│   ├── challenges
+│   │   ├── fieldmanual
+│   │   │   ├── Ascii3.5.1.md
+│   │   │   ├── AskingForHelp1.4.md
+│   │   │   ├── AsymmetricEncryption3.7.3.md
+│   │   │   ├── Autopsy7.9.6.md
+│   │   │   ├── Base64AndBase323.5.5.md
+│   │   │   ├── BikeFan8.3.9.md
+│   │   │   ├── BinaryBikeLock8.3.12.md
+│   │   │   ├── BrokenBanks8.3.2.md
+│   │   │   ├── BufferOverflows6.5.md
+│   │   │   ├── CaesarOrRotCiphers3.3.2.md
+│   │   │   ├── Challenges1.2.md
+│   │   │   ├── ChangingDirectoriesWithCd4.5.md
+│   │   │   ├── CollisionsAndPoorUse3.4.2.md
+│   │   │   ├── CommandInjection2.10.md
+│   │   │   ├── CommandLineWebRequestsAndCurl2.6.md
+│   │   │   ├── CompilingABinary6.3.md
+│   │   │   ├── Conditionals(ifStatements)5.8.md
+│   │   │   ├── Console2.3.2.md
+│   │   │   ├── CookiesAndSessions2.8.md
+│   │   │   ├── CrossSiteScripting2.11.md
+│   │   │   ├── DataTypes5.4.md
+│   │   │   ├── DeletedFiles7.6.4.md
+│   │   │   ├── DevToolsIntroduction2.3.1.md
+│   │   │   ├── Dictionaries5.7.md
+│   │   │   ├── DiskCapture7.6.2.md
+│   │   │   ├── DiskForensics7.6.1.md
+│   │   │   ├── ElfAndExeFiles6.2.md
+│   │   │   ├── Email7.7.md
+│   │   │   ├── EncodingVsEncryption3.6.md
+│   │   │   ├── EventLogsAndLogFiles7.8.3.md
+│   │   │   ├── Executable8.3.6.md
+│   │   │   ├── ExecutingCommands4.2.md
+│   │   │   ├── FileIntegrityAndHashes7.2.2.md
+│   │   │   ├── FileSystemForensics7.6.3.md
+│   │   │   ├── FiltersInWebApplications2.12.md
+│   │   │   ├── FirstContact8.2.2.md
+│   │   │   ├── Functions5.10.md
+│   │   │   ├── GalacticGreetings8.2.3.md
+│   │   │   ├── HappyCustomers8.3.3.md
+│   │   │   ├── HeadersAndStrings7.2.1.md
+│   │   │   ├── HelloWorld8.1.1.md
+│   │   │   ├── Hexadecimal3.5.2.md
+│   │   │   ├── HiddenReport8.3.8.md
+│   │   │   ├── HorribleHats8.3.10.md
+│   │   │   ├── Introduction1.1.md
+│   │   │   ├── Introduction3.1.md
+│   │   │   ├── IntroductionToBinaries6.1.md
+│   │   │   ├── IntroductionToForensics7.1.md
+│   │   │   ├── IntroductionToHashing3.4.1.md
+│   │   │   ├── IntroductionToLinux4.1.md
+│   │   │   ├── IntroductionToProgramming5.1.md
+│   │   │   ├── IntroductionToWebApplications2.1.md
+│   │   │   ├── LazyLockedLogin8.1.4.md
+│   │   │   ├── LinuxPermissions4.7.md
+│   │   │   ├── ListingWithLs4.4.md
+│   │   │   ├── ListsAndTuples5.6.md
+│   │   │   ├── Loops5.9.md
+│   │   │   ├── ManipulatingUrls2.4.md
+│   │   │   ├── MathematicalFunctions5.5.md
+│   │   │   ├── Memory6.4.md
+│   │   │   ├── Memory7.5.md
+│   │   │   ├── MixedMessages8.3.5.md
+│   │   │   ├── MixedUpMessages8.1.2.md
+│   │   │   ├── Modules5.11.md
+│   │   │   ├── MorseCode3.5.4.md
+│   │   │   ├── Netcat4.12.md
+│   │   │   ├── Network7.4.md
+│   │   │   ├── OsintAndRobots2.13.md
+│   │   │   ├── PasswordComplexity3.2.md
+│   │   │   ├── Prefetch7.8.2.md
+│   │   │   ├── QrCodesAndBarcodes3.5.3.md
+│   │   │   ├── RaceToWhere8.3.4.md
+│   │   │   ├── ReadingAndWritingFiles5.12.md
+│   │   │   ├── ReadingHistory4.13.md
+│   │   │   ├── RegistryAndPrefetch7.8.1.md
+│   │   │   ├── RoverRodeo8.2.4.md
+│   │   │   ├── RunningPrograms4.8.md
+│   │   │   ├── RunningPythonPrograms5.2.md
+│   │   │   ├── Salts3.4.3.md
+│   │   │   ├── Scripting4.14.md
+│   │   │   ├── SecretCaesar8.3.7.md
+│   │   │   ├── SecurityAwareness1.5.md
+│   │   │   ├── SelfGuidedLearningTipsAndTricks1.3.md
+│   │   │   ├── SocialEngineering8.1.3.md
+│   │   │   ├── SocialSecret8.3.1.md
+│   │   │   ├── SqlInjection2.9.md
+│   │   │   ├── Ssh4.10.md
+│   │   │   ├── Steganography7.3.md
+│   │   │   ├── Steghide7.9.2.md
+│   │   │   ├── StoppingProgramExecution4.9.md
+│   │   │   ├── SubstitutionCiphers3.3.1.md
+│   │   │   ├── SymmetricEncryption3.7.2.md
+│   │   │   ├── TakingItFurther3.3.5.md
+│   │   │   ├── TakingItFurther6.6.md
+│   │   │   ├── Tcpdump7.9.4.md
+│   │   │   ├── TheArnoldCipher3.3.3.md
+│   │   │   ├── TheAtbashCipher3.3.4.md
+│   │   │   ├── TheCatCommand4.6.md
+│   │   │   ├── TheClientAndServerSide2.2.md
+│   │   │   ├── TheGrepCommand4.11.md
+│   │   │   ├── TheRocketeer8.2.1.md
+│   │   │   ├── Tools7.9.1.md
+│   │   │   ├── TowerOfWheels8.3.11.md
+│   │   │   ├── UsingTheVirtualMachine1.6.md
+│   │   │   ├── Utf-83.5.6.md
+│   │   │   ├── Variables5.3.md
+│   │   │   ├── Volatility7.9.5.md
+│   │   │   ├── WebPlug-ins2.7.md
+│   │   │   ├── WebRequestsAndHttp2.5.md
+│   │   │   ├── Whoami4.3.md
+│   │   │   ├── Wireshark7.9.3.md
+│   │   │   └── XorEncryption3.7.1.md
+│   │   ├── Field-Manual.md
+│   │   ├── forensics
+│   │   │   ├── AncientAttachment-L08C02.md
+│   │   │   ├── ArgentineAmbush-L06C01.md
+│   │   │   ├── AthensArrest-L08C01.md
+│   │   │   ├── BrazilianBlather-L06C03.md
+│   │   │   ├── ChillyCommand-L07C04.md
+│   │   │   ├── ChirpingChorizo-L01C02.md
+│   │   │   ├── CoolRecovery-L07C02.md
+│   │   │   ├── DashDelete-L05C04.md
+│   │   │   ├── DodgyDealers-L08C04.md
+│   │   │   ├── DubiousJobs-L03C04.md
+│   │   │   ├── FinalBid-L08C03.md
+│   │   │   ├── FootprintsInTheSnow-L07C03.md
+│   │   │   ├── HastyAction-L04C03.md
+│   │   │   ├── HiddenHyena-L04C02.md
+│   │   │   ├── IcyAdmin-L07C01.md
+│   │   │   ├── IslandImage-L06C04.md
+│   │   │   ├── Listicle-L07C05.md
+│   │   │   ├── MaliciousMemory-L08C05.md
+│   │   │   ├── MasaiMystery-L04C05.md
+│   │   │   ├── MissingImage-L06C02.md
+│   │   │   ├── MovingMixUp-L02C05.md
+│   │   │   ├── NewRacer-L05C02.md
+│   │   │   ├── PeculiarPortfolio-L03C02.md
+│   │   │   ├── PhotoRapide-L02C01.md
+│   │   │   ├── PictureImperfect-L03C01.md
+│   │   │   ├── PictureinPicture-L02C02.md
+│   │   │   ├── Recibo-L01C05.md
+│   │   │   ├── RemoteAccess-L02C04.md
+│   │   │   ├── ReportPartOne-L01C03.md
+│   │   │   ├── ReportPartTwo-L01C04.md
+│   │   │   ├── RunningReport-L05C03.md
+│   │   │   ├── ShutterSpeed-L04C04.md
+│   │   │   ├── SocialSafari-L04C01.md
+│   │   │   ├── StartLineSetback-L05C01.md
+│   │   │   ├── SuspiciousSelfie-L01C01.md
+│   │   │   ├── TrojanHorse-L02C03.md
+│   │   │   ├── UnfamiliarFiles-L03C03.md
+│   │   │   ├── UphillSection-L05C05.md
+│   │   │   ├── UrgentEscalation-L06C05.md
+│   │   │   └── VolatileMemory-L03C05.md
+│   │   ├── Forensics.md
+│   │   ├── headquarters
+│   │   │   ├── AccountRoulette-L12C03.md
+│   │   │   ├── ADangerousContact-L04C05.md
+│   │   │   ├── AHelpingHand-L04C01.md
+│   │   │   ├── AllZippedUp-L07C10.md
+│   │   │   ├── ArnoldChopper-L04C02.md
+│   │   │   ├── ArtTheif-L11C05.md
+│   │   │   ├── ASecretRendezvous-L03C01.md
+│   │   │   ├── BadKitty-L04C12.md
+│   │   │   ├── BaffledByBrowsers-L05C11.md
+│   │   │   ├── BarcodeBonanza-L08C04.md
+│   │   │   ├── BashTheBotnet-L07C09.md
+│   │   │   ├── BendikkeLovesAxes-L04C07.md
+│   │   │   ├── BenjaminTheBrute-L11C06.md
+│   │   │   ├── BigTransfer-L03C11.md
+│   │   │   ├── BikeFan-L01C09.md
+│   │   │   ├── BinaryBattle-L11C04.md
+│   │   │   ├── BinaryBikeLocks-L01C12.md
+│   │   │   ├── BinaryMemories-L13C06.md
+│   │   │   ├── BoatMissing-L08C03.md
+│   │   │   ├── Bogdan’sData-L09C08.md
+│   │   │   ├── BreakingBottles-L07C08.md
+│   │   │   ├── BrokenBanks-L01C02.md
+│   │   │   ├── BrokenClick-L02C06.md
+│   │   │   ├── BruteStrength-L06C12.md
+│   │   │   ├── BunsenBurners-L09C04.md
+│   │   │   ├── Bypass-L13C02.md
+│   │   │   ├── CallingYaroslav-L10C02.md
+│   │   │   ├── CatchAndThrow-L12C10.md
+│   │   │   ├── CentrifugeExposed-L09C01.md
+│   │   │   ├── ChangeOfPlan-L12C04.md
+│   │   │   ├── ChatzWithSemyon-L10C06.md
+│   │   │   ├── ChopperCheck-in-L03C03.md
+│   │   │   ├── CodeAttack-L09C10.md
+│   │   │   ├── CoffeeRobot-L12C07.md
+│   │   │   ├── ColdFile-L09C02.md
+│   │   │   ├── Confused-L03C04.md
+│   │   │   ├── CookieJar-L04C11.md
+│   │   │   ├── CorruptedCorruption-L08C11.md
+│   │   │   ├── Corrupted-L03C06.md
+│   │   │   ├── Cryptonite-L11C11.md
+│   │   │   ├── CustomPlates-L06C10.md
+│   │   │   ├── DangerousComment-L05C12.md
+│   │   │   ├── DanteInCommand-L03C12.md
+│   │   │   ├── DearJohn-L10C12.md
+│   │   │   ├── DecryptionRing-L02C01.md
+│   │   │   ├── DeveloperDisaster-L07C07.md
+│   │   │   ├── DockingPort-L07C03.md
+│   │   │   ├── DotDotDash-L07C01.md
+│   │   │   ├── Encrypted-L08C05.md
+│   │   │   ├── Encrypted-L13C09.md
+│   │   │   ├── EncryptedMessage-L02C08.md
+│   │   │   ├── Executable-L01C06.md
+│   │   │   ├── Exposure-L11C10.md
+│   │   │   ├── FileFound-L05C06.md
+│   │   │   ├── FileHunt-L09C09.md
+│   │   │   ├── FilteredCola-L08C07.md
+│   │   │   ├── Fingerprints-L02C09.md
+│   │   │   ├── FloatToTheTop-L08C08.md
+│   │   │   ├── ForkInTheRoad-L12C08.md
+│   │   │   ├── GrandOldRuble-L09C07.md
+│   │   │   ├── HappyCustomers-L01C03.md
+│   │   │   ├── HardHash-L02C07.md
+│   │   │   ├── Hash’em-L13C08.md
+│   │   │   ├── Hayka-L09C05.md
+│   │   │   ├── Heroka'sDB-L06C06.md
+│   │   │   ├── HiddenBear-L10C04.md
+│   │   │   ├── HiddenBoats-L07C02.md
+│   │   │   ├── HiddenCentrifuge-L09C03.md
+│   │   │   ├── HiddenReport-L01C08.md
+│   │   │   ├── Hidra-L08C12.md
+│   │   │   ├── HorribleHats-L01C10.md
+│   │   │   ├── HushFund-L06C07.md
+│   │   │   ├── JunkDecryption-L10C09.md
+│   │   │   ├── JunyaWho-L06C08.md
+│   │   │   ├── Kappa’sHiddenSecrets-L10C07.md
+│   │   │   ├── Lockdown-L04C09.md
+│   │   │   ├── LockedDoors-L08C01.md
+│   │   │   ├── LoopyLogin-L02C02.md
+│   │   │   ├── LostButNotForgotten-L04C10.md
+│   │   │   ├── LostKey-L06C04.md
+│   │   │   ├── LuckyThrow-L03C02.md
+│   │   │   ├── Maggie’sFile-L04C06.md
+│   │   │   ├── Matryoshka-L10C05.md
+│   │   │   ├── MeetingMomoko-L06C03.md
+│   │   │   ├── Memories-L13C05.md
+│   │   │   ├── MiguelTheMoneyman-L07C06.md
+│   │   │   ├── MissionExtension-L09C06.md
+│   │   │   ├── MixedMessages-L01C05.md
+│   │   │   ├── MoreBrokenBicycles-L02C05.md
+│   │   │   ├── MultipleBoxes-L12C12.md
+│   │   │   ├── NightClubRendezvous-L11C02.md
+│   │   │   ├── NoseyRobot-L12C02.md
+│   │   │   ├── OddFile-L10C08.md
+│   │   │   ├── OpenBox-L11C12.md
+│   │   │   ├── OpenPort-L12C09.md
+│   │   │   ├── OutOfSight-L05C04.md
+│   │   │   ├── OverflowEgor-L10C01.md
+│   │   │   ├── PasswordPickle-L07C12.md
+│   │   │   ├── PasswordPostulation-L03C08.md
+│   │   │   ├── Pedro'sPassword-L07C04.md
+│   │   │   ├── PerilousPencils-L10C11.md
+│   │   │   ├── PerplexedByPixels-L05C01.md
+│   │   │   ├── PhishingForFlemming-L04C08.md
+│   │   │   ├── Photobomb-L04C03.md
+│   │   │   ├── PortOfCall-L11C01.md
+│   │   │   ├── PortService-L08C02.md
+│   │   │   ├── QR.gif-L06C09.md
+│   │   │   ├── QuickDrop-L07C05.md
+│   │   │   ├── RaceToWhere-L01C04.md
+│   │   │   ├── Rattlesnake-L05C08.md
+│   │   │   ├── RecruitList-L09C12.md
+│   │   │   ├── RemoteUnlock-L12C06.md
+│   │   │   ├── Rezapped-L06C01.md
+│   │   │   ├── RouteIntoTheRouter-L03C07.md
+│   │   │   ├── RunningMan-L06C05.md
+│   │   │   ├── RunServerRun-L13C03.md
+│   │   │   ├── Seashell-L13C07.md
+│   │   │   ├── SecretCaesar-L01C07.md
+│   │   │   ├── SecretMessages-L08C09.md
+│   │   │   ├── SecretPages-L02C03.md
+│   │   │   ├── SecretSource-L03C05.md
+│   │   │   ├── SecretSpreadsheet-L07C11.md
+│   │   │   ├── ServerStrike-L13C04.md
+│   │   │   ├── Shinji'sDrone-L05C03.md
+│   │   │   ├── ShippingLanes-L08C10.md
+│   │   │   ├── ShoppingForSecrets-L05C07.md
+│   │   │   ├── SilverService-L13C10.md
+│   │   │   ├── SnakeCharmer-L03C09.md
+│   │   │   ├── SnakesInMotion-L10C10.md
+│   │   │   ├── SocialSecret-L01C01.md
+│   │   │   ├── SpamForDinner-L13C01.md
+│   │   │   ├── SpamRobot-L12C01.md
+│   │   │   ├── SteppingUp-L11C07.md
+│   │   │   ├── StillHiding-L06C11.md
+│   │   │   ├── StopAndSearch-L12C11.md
+│   │   │   ├── StringCruncher-L13C11.md
+│   │   │   ├── TaygaBears-L09C11.md
+│   │   │   ├── TextAndText-L10C03.md
+│   │   │   ├── TheCompetitorRevealed-L03C10.md
+│   │   │   ├── TheInsider-L11C03.md
+│   │   │   ├── TheRobotSpeaks-L12C05.md
+│   │   │   ├── TooMuchText-L02C04.md
+│   │   │   ├── TowerofWheels-L01C11.md
+│   │   │   ├── TrialByFile-L13C12.md
+│   │   │   ├── TruckStop-L06C02.md
+│   │   │   ├── T-ShirtTrivia-L05C10.md
+│   │   │   ├── UnderAttack-L02C11.md
+│   │   │   ├── UnsafeDepositBox-L11C08.md
+│   │   │   ├── UpgradesPaaa-L04C04.md
+│   │   │   ├── UsefulHack-L02C10.md
+│   │   │   ├── UserWho-L02C12.md
+│   │   │   ├── ViciousVoicemail-L11C09.md
+│   │   │   ├── WakeUpAlarm-L08C06.md
+│   │   │   ├── WordOnTheStreet-L05C02.md
+│   │   │   ├── YakooCars-L05C09.md
+│   │   │   └── Zapped-L05C05.md
+│   │   ├── Headquarters.md
+│   │   ├── intern-base
+│   │   │   ├── 610enC0de'dPassword-L02C04.md
+│   │   │   ├── FirstContact-L02C02.md
+│   │   │   ├── GalacticGreetings-L02C03.md
+│   │   │   ├── HelloWorld-L01C01.md
+│   │   │   ├── Hextraordinary-L03C01.md
+│   │   │   ├── LazyLockedLogin-L01C04.md
+│   │   │   ├── MathsatLightSpeed-L03C02.md
+│   │   │   ├── MixedUpMessages-L01C02.md
+│   │   │   ├── OffBalance-L03C03.md
+│   │   │   ├── RoverRodeo-L02C04.md
+│   │   │   ├── SocialEngineering-L01C03.md
+│   │   │   ├── Start-UpTroubles-L02C03.md
+│   │   │   ├── TheFinalCountdown-L03C04.md
+│   │   │   └── TheRocketeer-L02C01.md
+│   │   ├── Intern-Base.md
+│   │   ├── moon-base
+│   │   │   ├── AgentProfiles-L04C02.md
+│   │   │   ├── AlienEmail-L07C05.md
+│   │   │   ├── AlienServer-L04C05.md
+│   │   │   ├── AlienTransfer-L07C03.md
+│   │   │   ├── AlienZip-L05C03.md
+│   │   │   ├── ASCIIEncoding-L03C04.md
+│   │   │   ├── AWayBackIn-L06C03.md
+│   │   │   ├── BrokenRobot-L04C03.md
+│   │   │   ├── ConvertingForFun-L01C03.md
+│   │   │   ├── CookieCutter-L07C02.md
+│   │   │   ├── DefenceData-L05C02.md
+│   │   │   ├── Don'tForgetHTTP-L03C03.md
+│   │   │   ├── FlowWithConditions-L02C01.md
+│   │   │   ├── ForeignFilesystem-L06C01.md
+│   │   │   ├── FunWithFiles-L03C01.md
+│   │   │   ├── GettingAccess-L08C03.md
+│   │   │   ├── GoingLoopy-L02C05.md
+│   │   │   ├── HandyVariables-L01C02.md
+│   │   │   ├── HiddenMessages-L07C04.md
+│   │   │   ├── HoorayForArrays-L02C04.md
+│   │   │   ├── JovianTweets-L05C05.md
+│   │   │   ├── Let'sGetFunctional-L02C03.md
+│   │   │   ├── ListenUp-L05C01.md
+│   │   │   ├── Logical-L02C02.md
+│   │   │   ├── MagicFile-L07C01.md
+│   │   │   ├── MathsinCode-L01C04.md
+│   │   │   ├── NewLineOfCommunication-L08C01.md
+│   │   │   ├── PassphrasePanic-L05C04.md
+│   │   │   ├── Programming101-L01C01.md
+│   │   │   ├── ReadyForRegex-L03C05.md
+│   │   │   ├── SelfDestruct-L08C05.md
+│   │   │   ├── ServerKey-L06C05.md
+│   │   │   ├── SocketsAndServers-L03C02.md
+│   │   │   ├── StrangeFile-L04C01.md
+│   │   │   ├── SuperStrings-L01C05.md
+│   │   │   ├── ToughZip-L06C04.md
+│   │   │   ├── UnlockingTheMessage-L04C04.md
+│   │   │   ├── UnlockingTheMothership-L08C04.md
+│   │   │   ├── VulnerableString-L08C02.md
+│   │   │   └── WatchedByTheEye-L06C02.md
+│   │   └── Moon-Base.md
+│   ├── extra
+│   │   ├── AgentProfile.md
+│   │   └── BaseCompletionText.md
+│   ├── LICENSE
+│   └── README.md
+├── Dataset and Lessons Learned from the 2024 SaTML LLM Capture-the-Flag Competition.pdf
+├── data_structure.txt
+├── Design and Use of Privacy Capture-the-Flag Challenges in an Introductory Class on Information Privacy and Security.pdf
+├── htb_ca2023_writeups
+│   ├── blockchain
+│   │   ├── navigating_the_unknown
+│   │   │   ├── README.md
+│   │   │   └── solve.py
+│   │   └── shooting_101
+│   │       ├── README.md
+│   │       └── solve.py
+│   ├── crypto
+│   │   ├── ancient_encodings.md
+│   │   ├── multipage_recyclings.md
+│   │   ├── perfect_synchronization.md
+│   │   └── small_steps.md
+│   ├── forensics
+│   │   ├── alien_cradle.md
+│   │   ├── artifacts_of_dangerous_sightings
+│   │   │   ├── final.ps1
+│   │   │   ├── hidden.ps1
+│   │   │   ├── README.md
+│   │   │   ├── stage2.ps1
+│   │   │   ├── stage3.ps1
+│   │   │   └── stage3.py
+│   │   ├── bashic_ransomware
+│   │   │   ├── README.md
+│   │   │   ├── stage1.sh
+│   │   │   └── stage2.sh
+│   │   ├── extraterrestrial_persistence.md
+│   │   ├── interstellar_c2
+│   │   │   ├── 94974f08-5853-41ab-938a-ae1bd86d8e51.dat
+│   │   │   ├── c2_init_config
+│   │   │   ├── cmd1.enc
+│   │   │   ├── cmd2.enc
+│   │   │   ├── cmd3.enc
+│   │   │   ├── dec_command.py
+│   │   │   ├── decmd.py
+│   │   │   ├── deresp.py
+│   │   │   ├── first_command
+│   │   │   ├── grab.py
+│   │   │   ├── README.md
+│   │   │   ├── resp1.enc
+│   │   │   ├── resp3.enc
+│   │   │   ├── resp4.enc
+│   │   │   ├── resp5.enc
+│   │   │   ├── response5.png
+│   │   │   ├── stage1.ps1
+│   │   │   └── stage2.bin
+│   │   ├── packet_cyclone.md
+│   │   ├── pandoras_bane
+│   │   │   ├── dec.py
+│   │   │   ├── README.md
+│   │   │   ├── stage2.bin
+│   │   │   ├── stage2.enc
+│   │   │   ├── stage3.bin
+│   │   │   └── stage3.enc
+│   │   ├── plaintext_pleasure.md
+│   │   ├── relic_maps
+│   │   │   ├── dec.py
+│   │   │   ├── ext.py
+│   │   │   ├── nice2.bat
+│   │   │   ├── README.md
+│   │   │   ├── s2defs.txt
+│   │   │   ├── stage2.bat
+│   │   │   └── stage3.bin
+│   │   └── roten.md
+│   ├── hardware
+│   │   ├── critical_flight
+│   │   │   ├── all_layers.png
+│   │   │   ├── flag1.png
+│   │   │   ├── flag2.png
+│   │   │   └── README.md
+│   │   ├── debug
+│   │   │   ├── flag.png
+│   │   │   └── README.md
+│   │   └── timed_transmission
+│   │       ├── flag.png
+│   │       └── README.md
+│   ├── misc
+│   │   ├── hijack.md
+│   │   ├── janken.md
+│   │   ├── nehebkaus_trap.md
+│   │   ├── persistence.md
+│   │   ├── remote_computation.md
+│   │   ├── restricted.md
+│   │   └── the_chasms_crossing_conondrum.md
+│   ├── ml
+│   │   ├── plot.png
+│   │   └── reconfiguration.md
+│   ├── pwn
+│   │   ├── getting_started
+│   │   │   ├── README.md
+│   │   │   └── wrapper.py
+│   │   ├── initialize_connection.md
+│   │   ├── labyrinth
+│   │   │   ├── README.md
+│   │   │   └── solve.py
+│   │   ├── pandoras_box
+│   │   │   ├── README.md
+│   │   │   └── solve.py
+│   │   ├── questionnaire.md
+│   │   └── void
+│   │       ├── README.md
+│   │       └── solve.py
+│   ├── README.md
+│   ├── reversing
+│   │   ├── alien_saboteaur.md
+│   │   ├── cave_system.md
+│   │   ├── hunting_license.md
+│   │   ├── needle_in_a_haystack.md
+│   │   ├── shattered_tablet.md
+│   │   └── she_shells_c_shells.md
+│   ├── warmup.md
+│   └── web
+│       ├── didactic_octo_paddles.md
+│       ├── drobots.md
+│       ├── gunhead.md
+│       ├── orbital
+│       │   └── README.md
+│       ├── passman.md
+│       ├── spybug.md
+│       ├── trapped_source.md
+│       ├── trap_track
+│       │   ├── exploit.py
+│       │   └── README.md
+│       └── unearthly_shop
+│           ├── exploit.py
+│           ├── payload
+│           └── README.md
+├── Juice-Shop-Write-up
+│   ├── 1-star
+│   │   ├── bonus_payload.md
+│   │   ├── bully_chatbot.md
+│   │   ├── confidential_document.md
+│   │   ├── dom_xss.md
+│   │   ├── error_handling.md
+│   │   ├── exposed_metrics.md
+│   │   ├── mass_dispel.md
+│   │   ├── missing_encoding.md
+│   │   ├── outdated_allowlist.md
+│   │   ├── privacy_policy.md
+│   │   ├── repetitive_registration.md
+│   │   ├── scoreboard.md
+│   │   ├── web3_interface.md
+│   │   └── zero_star.md
+│   ├── 2-stars
+│   │   ├── admin_section.md
+│   │   ├── depreceted_interface.md
+│   │   ├── empty_user_registration.md
+│   │   ├── five_star_feedback.md
+│   │   ├── login_admin.md
+│   │   ├── login_mcsafesearch.md
+│   │   ├── meta_geostaking.md
+│   │   ├── nft_takeover.md
+│   │   ├── password_strength.md
+│   │   ├── reflected_xss.md
+│   │   ├── view_basket.md
+│   │   ├── visual_geostaking.md
+│   │   ├── weird_crypto.md
+│   │   └── white_hat.md
+│   ├── 3-stars
+│   │   ├── admin_registration.md
+│   │   ├── bjoern_favorite_pet.md
+│   │   ├── captcha_bypass.md
+│   │   ├── csrf.md
+│   │   ├── database_schema.md
+│   │   ├── deluxe_fraud.md
+│   │   ├── forged_feedback.md
+│   │   ├── forged_review.md
+│   │   ├── gdpr_data_erasure.md
+│   │   ├── login_amy.md
+│   │   ├── login_bender.md
+│   │   ├── login_jim.md
+│   │   ├── manipulate_basket.md
+│   │   ├── mint_the_honey_pot.md
+│   │   ├── payback_time.md
+│   │   ├── privacy_policy_inspection.md
+│   │   ├── product_tampering.md
+│   │   ├── reset_jim_password.md
+│   │   └── upload_size.md
+│   ├── 4-stars
+│   │   ├── access_log.md
+│   │   ├── allowlist_bypass.md
+│   │   ├── christmas_special.md
+│   │   ├── easter_egg.md
+│   │   ├── ephemeral_accountant.md
+│   │   ├── expired_coupon.md
+│   │   ├── forgotten_sales_backup.md
+│   │   ├── gdpr_data_theft.md
+│   │   ├── leaked_unsafe_product.md
+│   │   ├── legacy_typosquatting.md
+│   │   ├── login_bender.md
+│   │   ├── login_bjoern.md
+│   │   ├── login_uvogin.md
+│   │   ├── nested_easter_egg.md
+│   │   ├── nosql_dos.md
+│   │   ├── nosql_manipulation.md
+│   │   ├── poison_null_bytes.md
+│   │   ├── server_side_xss_protection.md
+│   │   ├── steganography.md
+│   │   ├── user_credentials.md
+│   │   ├── vulnerable_library.md
+│   │   └── x_header_xss.md
+│   ├── 5-stars
+│   │   ├── blockchain_hype.md
+│   │   ├── blocked_rce_dos.md
+│   │   ├── change_bender_password.md
+│   │   ├── cross_site_imaging.md
+│   │   ├── email_leak.md
+│   │   ├── extra_language.md
+│   │   ├── frontend_typosquatting.md
+│   │   ├── kill_chatbot.md
+│   │   ├── leaked_access_log.md
+│   │   ├── local_file_read.md
+│   │   ├── nosql_exflitration.md
+│   │   ├── reset_bjoern_password.md
+│   │   ├── reset_morty_password.md
+│   │   ├── retrieve_blueprint.md
+│   │   ├── supply_chain_attack.md
+│   │   ├── two_factor_authentification.md
+│   │   └── unsigned_jwt.md
+│   ├── 6-stars
+│   │   ├── arbitrary_file_write.md
+│   │   ├── forged_coupon.md
+│   │   ├── forged_signed_jwt.md
+│   │   ├── imaginary_challenge.md
+│   │   ├── login_support_team.md
+│   │   ├── multiples_likes.md
+│   │   ├── premium_paywall.md
+│   │   ├── ssrf.md
+│   │   ├── ssti.md
+│   │   ├── successful_rce_dos.md
+│   │   ├── video_xss.md
+│   │   └── wallet_depletion.md
+│   ├── assets
+│   │   ├── difficulty1
+│   │   │   ├── bully_chatbot_1.png
+│   │   │   ├── confidential_document_1.png
+│   │   │   ├── dom_xss_1.png
+│   │   │   ├── error_handling_1.png
+│   │   │   ├── exposed_metrics_1.png
+│   │   │   ├── mass_dispel_1.png
+│   │   │   ├── mass_dispel_2.png
+│   │   │   ├── missing_encoding_1.png
+│   │   │   ├── missing_encoding_2.png
+│   │   │   ├── outdated_allowlist_1.png
+│   │   │   ├── policy_1.png
+│   │   │   ├── repetitive_registration_1.png
+│   │   │   ├── repetitive_registration_2.png
+│   │   │   ├── scoreboard_1.png
+│   │   │   ├── web3_interface_1.png
+│   │   │   ├── zero_star_1.png
+│   │   │   └── zero_star_2.png
+│   │   ├── difficulty2
+│   │   │   ├── admin_section_1.png
+│   │   │   ├── admin_section_2.png
+│   │   │   ├── admin_section_3.png
+│   │   │   ├── depreceted_interface_1.png
+│   │   │   ├── depreceted_interface_2.png
+│   │   │   ├── depreceted_interface_3.png
+│   │   │   ├── empty_user_registration_1.png
+│   │   │   ├── empty_user_registration_2.png
+│   │   │   ├── empty_user_registration_3.png
+│   │   │   ├── five_star_feedback_1.png
+│   │   │   ├── login_admin_1.png
+│   │   │   ├── login_admin_2.png
+│   │   │   ├── meta_geostaking_1.png
+│   │   │   ├── meta_geostaking_2.png
+│   │   │   ├── meta_geostaking_3.png
+│   │   │   ├── meta_geostaking_4.png
+│   │   │   ├── meta_geostaking_5.png
+│   │   │   ├── meta_geostaking_6.png
+│   │   │   ├── meta_geostaking_7.png
+│   │   │   ├── nft_takeover_1.png
+│   │   │   ├── nft_takeover_2.png
+│   │   │   ├── nft_takeover_3.png
+│   │   │   ├── password_strength_1.png
+│   │   │   ├── password_strength_2.png
+│   │   │   ├── password_strength_3.png
+│   │   │   ├── password_strength_4.png
+│   │   │   ├── reflected_xss_1.png
+│   │   │   ├── reflected_xss_2.png
+│   │   │   ├── reflected_xss_3.png
+│   │   │   ├── reflected_xss_4.png
+│   │   │   ├── view_basket_1.png
+│   │   │   ├── view_basket_2.png
+│   │   │   ├── view_basket_3.png
+│   │   │   ├── view_basket_4.png
+│   │   │   ├── visual_geostaking_1.png
+│   │   │   ├── visual_geostaking_2.png
+│   │   │   ├── visual_geostaking_3.png
+│   │   │   ├── visual_geostaking_4.png
+│   │   │   ├── weird_crypto_1.png
+│   │   │   └── white_hat_1.png
+│   │   ├── difficulty3
+│   │   │   ├── admin_registration_1.png
+│   │   │   ├── admin_registration_2.png
+│   │   │   ├── admin_registration_3.png
+│   │   │   ├── admin_registration_4.png
+│   │   │   ├── bjoern_favorite_pet_1.png
+│   │   │   ├── bjoern_favorite_pet_2.png
+│   │   │   ├── bjoern_favorite_pet_3.png
+│   │   │   ├── captcha_bypass_1.png
+│   │   │   ├── captcha_bypass_2.png
+│   │   │   ├── captcha_bypass_3.png
+│   │   │   ├── csrf_1.png
+│   │   │   ├── csrf_2.png
+│   │   │   ├── database_schema_1.png
+│   │   │   ├── database_schema_2.png
+│   │   │   ├── database_schema_3.png
+│   │   │   ├── database_schema_4.png
+│   │   │   ├── database_schema_5.png
+│   │   │   ├── database_schema_6.png
+│   │   │   ├── database_schema_7.png
+│   │   │   ├── database_schema_8.png
+│   │   │   ├── deluxe_fraud_1.png
+│   │   │   ├── deluxe_fraud_2.png
+│   │   │   ├── deluxe_fraud_3.png
+│   │   │   ├── deluxe_fraud_4.png
+│   │   │   ├── deluxe_fraud_5.png
+│   │   │   ├── deluxe_fraud_6.png
+│   │   │   ├── forged_feedback_1.png
+│   │   │   ├── forged_feedback_2.png
+│   │   │   ├── forged_review_1.png
+│   │   │   ├── forged_review_2.png
+│   │   │   ├── forged_review_3.png
+│   │   │   ├── forged_review_4.png
+│   │   │   ├── forged_review_5.png
+│   │   │   ├── forged_review_6.png
+│   │   │   ├── forged_review_7.png
+│   │   │   ├── forged_review_8.png
+│   │   │   ├── gdpr_data_erasure_1.png
+│   │   │   ├── gdpr_data_erasure_2.png
+│   │   │   ├── login_amy_1.png
+│   │   │   ├── login_amy_2.png
+│   │   │   ├── login_amy_3.png
+│   │   │   ├── login_bender_1.png
+│   │   │   ├── login_bender_2.png
+│   │   │   ├── login_jim_1.png
+│   │   │   ├── manipulate_basket_1.png
+│   │   │   ├── manipulate_basket_2.png
+│   │   │   ├── manipulate_basket_3.png
+│   │   │   ├── manipulate_basket_4.png
+│   │   │   ├── mint_the_honey_pot_1.png
+│   │   │   ├── mint_the_honey_pot_2.png
+│   │   │   ├── mint_the_honey_pot_3.png
+│   │   │   ├── mint_the_honey_pot_4.png
+│   │   │   ├── mint_the_honey_pot_5.png
+│   │   │   ├── mint_the_honey_pot_6.png
+│   │   │   ├── mint_the_honey_pot_7.png
+│   │   │   ├── payback_time_1.png
+│   │   │   ├── payback_time_2.png
+│   │   │   ├── payback_time_3.png
+│   │   │   ├── payback_time_4.png
+│   │   │   ├── payback_time_5.png
+│   │   │   ├── payback_time_6.png
+│   │   │   ├── payback_time_7.png
+│   │   │   ├── privacy_policy_inspection_1.png
+│   │   │   ├── privacy_policy_inspection_2.png
+│   │   │   ├── privacy_policy_inspection_3.png
+│   │   │   ├── privacy_policy_inspection_4.png
+│   │   │   ├── product_tampering_1.png
+│   │   │   ├── product_tampering_2.png
+│   │   │   ├── product_tampering_3.png
+│   │   │   ├── product_tampering_4.png
+│   │   │   ├── product_tampering_5.png
+│   │   │   ├── reset_jim_password_1.png
+│   │   │   ├── reset_jim_password_2.png
+│   │   │   ├── reset_jim_password_3.png
+│   │   │   ├── upload_size_1.png
+│   │   │   ├── upload_size_2.png
+│   │   │   ├── upload_size_3.png
+│   │   │   └── upload_size_4.png
+│   │   ├── difficulty4
+│   │   │   ├── access_log_1.png
+│   │   │   ├── access_log_2.png
+│   │   │   ├── allowlist_bypass_1.png
+│   │   │   ├── allowlist_bypass_2.png
+│   │   │   ├── allowlist_bypass_3.png
+│   │   │   ├── christmas_special_1.png
+│   │   │   ├── christmas_special_2.png
+│   │   │   ├── christmas_special_3.png
+│   │   │   ├── christmas_special_4.png
+│   │   │   ├── confidentials_documents.png
+│   │   │   ├── easter_egg_1.png
+│   │   │   ├── easter_egg_2.png
+│   │   │   ├── easter_egg_3.png
+│   │   │   ├── ephemeral_accountant_1.png
+│   │   │   ├── ephemeral_accountant_2.png
+│   │   │   ├── expired_coupon_1.png
+│   │   │   ├── expired_coupon_2.png
+│   │   │   ├── expired_coupon_3.png
+│   │   │   ├── expired_coupon_4.png
+│   │   │   ├── forgotten_sales_backup.png
+│   │   │   ├── gdpr_data_theft_1.png
+│   │   │   ├── gdpr_data_theft_2.png
+│   │   │   ├── gdpr_data_theft_3.png
+│   │   │   ├── gdpr_data_theft_4.png
+│   │   │   ├── leaked_unsafe_product_1.png
+│   │   │   ├── leaked_unsafe_product_2.png
+│   │   │   ├── leaked_unsafe_product_3.png
+│   │   │   ├── leaked_unsafe_product_4.png
+│   │   │   ├── legacy_typosquatting_1.png
+│   │   │   ├── legacy_typosquatting_2.png
+│   │   │   ├── login_bender_1.png
+│   │   │   ├── login_bjoern_1.png
+│   │   │   ├── login_bjoern_2.png
+│   │   │   ├── login_uvogin_1.png
+│   │   │   ├── login_uvogin_2.png
+│   │   │   ├── login_uvogin_3.png
+│   │   │   ├── login_uvogin_4.png
+│   │   │   ├── login_uvogin_5.png
+│   │   │   ├── login_uvogin_6.png
+│   │   │   ├── nested_easter_egg_1.png
+│   │   │   ├── nosql_dos_1.png
+│   │   │   ├── nosql_dos_2.png
+│   │   │   ├── nosql_manipulation_1.png
+│   │   │   ├── nosql_manipulation_2.png
+│   │   │   ├── steganography.png
+│   │   │   ├── user_credentials_1.png
+│   │   │   ├── user_credentials_2.png
+│   │   │   ├── user_credentials_3.png
+│   │   │   ├── user_credentials_4.png
+│   │   │   ├── user_credentials_5.png
+│   │   │   ├── user_credentials_6.png
+│   │   │   ├── user_credentials_7.png
+│   │   │   ├── user_credentials_8.png
+│   │   │   ├── vulnerable_library_1.png
+│   │   │   ├── x_header_xss_1.png
+│   │   │   ├── x_header_xss_2.png
+│   │   │   ├── x_header_xss_3.png
+│   │   │   ├── x_header_xss_4.png
+│   │   │   └── x_header_xss_5.png
+│   │   ├── difficulty5
+│   │   │   ├── blockchain_hype_1.png
+│   │   │   ├── blockchain_hype_2.png
+│   │   │   ├── blockchain_hype_3.png
+│   │   │   ├── blockchain_hype_4.png
+│   │   │   ├── blocked_rce_dos_1.png
+│   │   │   ├── blocked_rce_dos_2.png
+│   │   │   ├── blocked_rce_dos_3.png
+│   │   │   ├── blocked_rce_dos_4.png
+│   │   │   ├── change_bender_password_1.png
+│   │   │   ├── change_bender_password_2.png
+│   │   │   ├── change_bender_password_3.png
+│   │   │   ├── change_bender_password_4.png
+│   │   │   ├── cross_site_imaging_1.png
+│   │   │   ├── cross_site_imaging_2.png
+│   │   │   ├── cross_site_imaging_3.png
+│   │   │   ├── cross_site_imaging_4.png
+│   │   │   ├── cross_site_imaging_5.png
+│   │   │   ├── cross_site_imaging_6.png
+│   │   │   ├── cross_site_imaging_7.png
+│   │   │   ├── cross_site_imaging_8.png
+│   │   │   ├── email_leak_1.png
+│   │   │   ├── email_leak_2.png
+│   │   │   ├── extra_language_1.png
+│   │   │   ├── extra_language_2.png
+│   │   │   ├── extra_language_3.png
+│   │   │   ├── frontend_typosquatting_1.png
+│   │   │   ├── kill_chatbot_1.png
+│   │   │   ├── kill_chatbot_2.png
+│   │   │   ├── kill_chatbot_3.png
+│   │   │   ├── kill_chatbot_4.png
+│   │   │   ├── kill_chatbot_5.png
+│   │   │   ├── kill_chatbot_6.png
+│   │   │   ├── kill_chatbot_7.png
+│   │   │   ├── kill_chatbot_8.png
+│   │   │   ├── leaked_access_log_1.png
+│   │   │   ├── leaked_access_log_2.png
+│   │   │   ├── leaked_access_log_3.png
+│   │   │   ├── leaked_access_log_4.png
+│   │   │   ├── leaked_access_log_5.png
+│   │   │   ├── local_file_read_1.png
+│   │   │   ├── local_file_read_2.png
+│   │   │   ├── local_file_read_3.png
+│   │   │   ├── nosql_exfiltration_1.png
+│   │   │   ├── nosql_exfiltration_2.png
+│   │   │   ├── nosql_exfiltration_3.png
+│   │   │   ├── reset_bjoern_password_1.png
+│   │   │   ├── reset_bjoern_password_2.png
+│   │   │   ├── reset_morty_password_1.png
+│   │   │   ├── reset_morty_password_2.png
+│   │   │   ├── retrieve_blueprint_1.png
+│   │   │   ├── retrieve_blueprint_2.png
+│   │   │   ├── supply_chain_attack_1.png
+│   │   │   ├── supply_chain_attack_2.png
+│   │   │   ├── supply_chain_attack_3.png
+│   │   │   ├── two_factor_authentification_1.png
+│   │   │   ├── two_factor_authentification_2.png
+│   │   │   ├── two_factor_authentification_3.png
+│   │   │   ├── two_factor_authentification_4.png
+│   │   │   ├── two_factor_authentification_5.png
+│   │   │   ├── unsigned_jwt_1.png
+│   │   │   ├── unsigned_jwt_2.png
+│   │   │   ├── unsigned_jwt_3.png
+│   │   │   ├── unsigned_jwt_4.png
+│   │   │   ├── unsigned_jwt_5.png
+│   │   │   └── unsigned_jwt_6.png
+│   │   ├── difficulty6
+│   │   │   ├── arbitrary_file_write_1.png
+│   │   │   ├── forged_coupon_1.png
+│   │   │   ├── forged_coupon_2.png
+│   │   │   ├── forged_coupon_3.png
+│   │   │   ├── forged_coupon_4.png
+│   │   │   ├── forged_coupon_5.png
+│   │   │   ├── forged_coupon_6.png
+│   │   │   ├── forged_signed_jwt_1.png
+│   │   │   ├── forged_signed_jwt_2.png
+│   │   │   ├── forged_signed_jwt_3.png
+│   │   │   ├── forged_signed_jwt_4.png
+│   │   │   ├── forged_signed_jwt_5.png
+│   │   │   ├── forged_signed_jwt_6.png
+│   │   │   ├── forged_signed_jwt_7.png
+│   │   │   ├── login_support_team_10.png
+│   │   │   ├── login_support_team_11.png
+│   │   │   ├── login_support_team_12.png
+│   │   │   ├── login_support_team_1.png
+│   │   │   ├── login_support_team_2.png
+│   │   │   ├── login_support_team_3.png
+│   │   │   ├── login_support_team_4.png
+│   │   │   ├── login_support_team_5.png
+│   │   │   ├── login_support_team_6.png
+│   │   │   ├── login_support_team_7.png
+│   │   │   ├── login_support_team_8.png
+│   │   │   ├── login_support_team_9.png
+│   │   │   ├── multiple_likes_1.png
+│   │   │   ├── multiple_likes_2.png
+│   │   │   ├── multiple_likes_3.png
+│   │   │   ├── multiple_likes_4.png
+│   │   │   ├── multiple_likes_5.png
+│   │   │   ├── multiple_likes_6.png
+│   │   │   ├── premium_paywall_1.png
+│   │   │   ├── premium_paywall_2.png
+│   │   │   ├── premium_paywall_3.png
+│   │   │   ├── ssrf_1.png
+│   │   │   ├── ssrf_2.png
+│   │   │   ├── ssrf_3.png
+│   │   │   ├── ssrf_4.png
+│   │   │   ├── ssrf_5.png
+│   │   │   ├── ssrf_6.png
+│   │   │   ├── ssrf_7.png
+│   │   │   ├── ssti_1.png
+│   │   │   ├── ssti_2.png
+│   │   │   ├── ssti_3.png
+│   │   │   ├── ssti_4.png
+│   │   │   ├── successful_rce_dos_1.png
+│   │   │   ├── successful_rce_dos_2.png
+│   │   │   ├── successful_rce_dos_3.png
+│   │   │   ├── video_xss_1.png
+│   │   │   ├── video_xss_2.png
+│   │   │   ├── video_xss_3.png
+│   │   │   ├── video_xss_4.png
+│   │   │   ├── video_xss_5.png
+│   │   │   ├── video_xss_6.png
+│   │   │   ├── video_xss_7.png
+│   │   │   ├── wallet_depletion_1.png
+│   │   │   ├── wallet_depletion_2.png
+│   │   │   ├── wallet_depletion_3.png
+│   │   │   └── wallet_depletion_4.png
+│   │   ├── public
+│   │   │   └── logo.png
+│   │   └── repository-development
+│   │       ├── get-challenge-infos.py
+│   │       ├── image_indent_modifier.py
+│   │       ├── image_size_modifier_2.py
+│   │       └── image_size_modifier.py
+│   ├── files
+│   │   ├── access.log.2024-05-06
+│   │   ├── access.log.2024-05-07
+│   │   ├── acquisitions.md
+│   │   ├── announcement_encrypted.md
+│   │   ├── coupons_2013.md.bak
+│   │   ├── eastere.gg
+│   │   ├── encrypt.pyc
+│   │   ├── incident-support.kdbx
+│   │   ├── jwt.pub
+│   │   ├── legal.md
+│   │   ├── package.json.bak
+│   │   ├── premium.key
+│   │   └── suspicious_errors.yml
+│   ├── README.md
+│   └── tools
+│       ├── achievement_backup
+│       │   └── owasp_juice_shop-2024-05-29.json
+│       ├── login_support_team.sh
+│       ├── multiple_likes.py
+│       ├── resset_morty_password.py
+│       └── wordlists
+│           ├── Analysis-Files
+│           │   ├── Analysis-Files-Megalinks.md
+│           │   ├── Analysis-Files-Torrents
+│           │   │   ├── ProbWL-v2-Analysis-Files-7z.torrent
+│           │   │   └── ProbWL-v2-Analysis-Files-targz.torrent
+│           │   ├── Appearances-Top12Thousand-probable-v2.txt
+│           │   ├── Appearances-Top1575-probable-v2.txt
+│           │   ├── Appearances-Top304Thousand-probable-v2.txt
+│           │   ├── ProbWL-197-rule-probable-v2.rule
+│           │   ├── ProbWL-26-rule-probable-v2.rule
+│           │   ├── ProbWL-51-rule-probable-v2.rule
+│           │   ├── ProbWL-547-rule-probable-v2.rule
+│           │   └── README.md
+│           ├── Dictionary-Style
+│           │   ├── Dictionary-Style-MegaLinks.md
+│           │   ├── Dictionary-Style-Rev-2-Torrents
+│           │   │   ├── ProbWL-v2-Dictionary-Style-7z.torrent
+│           │   │   └── ProbWL-v2-Dictionary-Style-targz.torrent
+│           │   ├── README.md
+│           │   └── Technical_and_Default
+│           │       ├── Domains_ProbWL.txt
+│           │       ├── Password_Default_ProbWL.txt
+│           │       ├── tld.txt
+│           │       └── Username_Default_ProbWL.txt
+│           └── Real-Passwords
+│               ├── README.md
+│               ├── Real-Password-Rev-2-Torrents
+│               │   ├── ProbWL-v2-Real-Passwords-7z.torrent
+│               │   └── ProbWL-v2-Real-Passwords-targz.torrent
+│               ├── Real-Passwords-MegaLinks.md
+│               ├── Top12Thousand-probable-v2.txt
+│               ├── Top1575-probable-v2.txt
+│               ├── Top207-probable-v2.txt
+│               ├── Top304Thousand-probable-v2.txt
+│               └── WPA-Length
+│                   ├── README.md
+│                   ├── Real-Password-WPA-MegaLinks.md
+│                   ├── Top204Thousand-WPA-probable-v2.txt
+│                   ├── Top447-WPA-probable-v2.txt
+│                   ├── Top4800-WPA-probable-v2.txt
+│                   ├── Top62-WPA-probable-v2.txt
+│                   └── WPA-Length-Rev-2-Torrents
+│                       ├── ProbWL-v2-Real-WPA-Passwords-7z.torrent
+│                       └── ProbWL-v2-Real-WPA-Passwords-targz.torrent
+├── NeurIPS-2024-nyu-ctf-bench-a-scalable-open-source-benchmark-dataset-for-evaluating-llms-in-offensive-security-Supplemental-Datasets_and_Benchmarks_Track.pdf
+├── Pentest-Resources-Cheat-Sheets.md
+├── PicoCTF-2022
+│   ├── Binary Exploitation
+│   │   ├── buffer overflow 1
+│   │   │   ├── README.md
+│   │   │   ├── script.py
+│   │   │   ├── vuln
+│   │   │   └── vuln.c
+│   │   ├── buffer overflow 2
+│   │   │   ├── README.md
+│   │   │   ├── script.py
+│   │   │   ├── vuln
+│   │   │   └── vuln.c
+│   │   ├── buffer overflow 3
+│   │   │   ├── canary.txt
+│   │   │   ├── README.md
+│   │   │   ├── script.py
+│   │   │   ├── vuln
+│   │   │   └── vuln.c
+│   │   ├── flag leak
+│   │   │   ├── README.md
+│   │   │   ├── script.py
+│   │   │   ├── vuln
+│   │   │   └── vuln.c
+│   │   ├── function overwrite
+│   │   │   ├── flag.txt
+│   │   │   ├── README.md
+│   │   │   ├── script.py
+│   │   │   ├── vuln
+│   │   │   └── vuln.c
+│   │   ├── ropfu
+│   │   │   ├── README.md
+│   │   │   ├── script.py
+│   │   │   ├── vuln
+│   │   │   └── vuln.c
+│   │   ├── stack cache
+│   │   │   ├── flag.txt
+│   │   │   ├── README.md
+│   │   │   ├── script.py
+│   │   │   ├── vuln
+│   │   │   └── vuln.c
+│   │   └── x-sixty-what
+│   │       ├── README.md
+│   │       ├── script.py
+│   │       ├── vuln
+│   │       └── vuln.c
+│   ├── challenge_template.md
+│   ├── Cryptography
+│   │   ├── basic-mod1
+│   │   │   ├── README.md
+│   │   │   └── script.py
+│   │   ├── basic-mod2
+│   │   │   ├── README.md
+│   │   │   └── script.py
+│   │   ├── diffie-hellman
+│   │   │   └── README.md
+│   │   ├── morse-code
+│   │   │   └── README.md
+│   │   ├── NSA Backdoor
+│   │   │   ├── backdoor_generator_tests.sage
+│   │   │   ├── factor.py
+│   │   │   ├── find_other_solutions.py
+│   │   │   ├── gen.py
+│   │   │   ├── output.txt
+│   │   │   ├── README.md
+│   │   │   ├── simple_solve.sage
+│   │   │   └── solve.sage
+│   │   ├── Sequences
+│   │   │   ├── README.md
+│   │   │   ├── sequences.py
+│   │   │   ├── solve.py
+│   │   │   └── wolframalpha_script.py
+│   │   ├── substitution
+│   │   │   └── README.md
+│   │   ├── Sum-O-Primes
+│   │   │   ├── gen.py
+│   │   │   ├── output.txt
+│   │   │   ├── README.md
+│   │   │   └── script.py
+│   │   └── Very Smooth
+│   │       ├── gen.py
+│   │       ├── output.txt
+│   │       ├── README.md
+│   │       └── script.py
+│   ├── Forensics
+│   │   ├── Operation Oni
+│   │   │   └── README.md
+│   │   ├── Operation Orchid
+│   │   │   └── README.md
+│   │   ├── SideChannel
+│   │   │   ├── pin_checker
+│   │   │   ├── README.md
+│   │   │   └── script.py
+│   │   ├── St3g0
+│   │   │   ├── pico.flag.png
+│   │   │   └── README.md
+│   │   └── Torrent Analyze
+│   │       └── README.md
+│   ├── README.md
+│   ├── Reverse Engineering
+│   │   ├── Bbbbloat
+│   │   │   ├── bbbbloat
+│   │   │   └── README.md
+│   │   ├── Keygenme
+│   │   │   ├── keygenme
+│   │   │   └── README.md
+│   │   ├── unpackme
+│   │   │   ├── README.md
+│   │   │   └── unpackme-upx
+│   │   └── Wizardlike
+│   │       ├── game
+│   │       └── README.md
+│   ├── SUMMARY.md
+│   └── Web Exploitation
+│       ├── Forbidden Paths
+│       │   └── README.md
+│       ├── noted
+│       │   ├── noted.tar.gz
+│       │   └── README.md
+│       ├── Roboto Sans
+│       │   └── README.md
+│       └── SQLiLite
+│           └── README.md
+├── picoCTF-Writeups
+│   ├── Beginner_picoMini_2022
+│   │   ├── General_Skills
+│   │   │   ├── Codebook.md
+│   │   │   ├── convertme.py.md
+│   │   │   ├── fixme1.py.md
+│   │   │   ├── fixme2.py.md
+│   │   │   ├── Glitch_Cat.md
+│   │   │   ├── HashingJobApp.md
+│   │   │   ├── PW_Crack_1.md
+│   │   │   ├── PW_Crack_2.md
+│   │   │   ├── PW_Crack_3.md
+│   │   │   ├── PW_Crack_4.md
+│   │   │   ├── PW_Crack_5.md
+│   │   │   ├── README.md
+│   │   │   ├── runme.py.md
+│   │   │   └── Serpentine.md
+│   │   └── README.md
+│   ├── picoCTF_2019
+│   │   ├── Binary_Exploitation
+│   │   │   ├── README.md
+│   │   │   └── seed-sPRiNG.md
+│   │   ├── Cryptography
+│   │   │   ├── 13.md
+│   │   │   ├── caesar.md
+│   │   │   ├── Easy1.md
+│   │   │   ├── Flags.md
+│   │   │   ├── la_cifra_de.md
+│   │   │   ├── miniRSA.md
+│   │   │   ├── Mr-Worldwide.md
+│   │   │   ├── README.md
+│   │   │   ├── rsa-pop-quiz.md
+│   │   │   ├── Tapping.md
+│   │   │   ├── The_Numbers.md
+│   │   │   └── waves_over_lambda.md
+│   │   ├── Forensics
+│   │   │   ├── extensions.md
+│   │   │   ├── Glory_of_the_Garden.md
+│   │   │   ├── Investigative_Reversing_0.md
+│   │   │   ├── Investigative_Reversing_1.md
+│   │   │   ├── like1000.md
+│   │   │   ├── m00nwalk2.md
+│   │   │   ├── m00nwalk.md
+│   │   │   ├── README.md
+│   │   │   ├── shark_on_wire_1.md
+│   │   │   ├── shark_on_wire_2.md
+│   │   │   ├── So_Meta.md
+│   │   │   ├── What_Lies_Within.md
+│   │   │   └── WhitePages.md
+│   │   ├── General_Skills
+│   │   │   ├── 1_wanna_b3_a_r0ck5tar.md
+│   │   │   ├── 2Warm.md
+│   │   │   ├── Based.md
+│   │   │   ├── Bases.md
+│   │   │   ├── First_Grep.md
+│   │   │   ├── flag_shop.md
+│   │   │   ├── Lets_Warm_Up.md
+│   │   │   ├── mus1c.md
+│   │   │   ├── plumbing.md
+│   │   │   ├── README.md
+│   │   │   ├── strings_it.md
+│   │   │   ├── Warmed_Up.md
+│   │   │   └── whats_a_net_cat.md
+│   │   ├── README.md
+│   │   ├── Reverse_Engineering
+│   │   │   ├── asm1.md
+│   │   │   ├── asm2.md
+│   │   │   ├── asm3.md
+│   │   │   ├── Droids0_Emulation.png
+│   │   │   ├── droids0.md
+│   │   │   ├── droids1.md
+│   │   │   ├── README.md
+│   │   │   ├── reverse_cipher.md
+│   │   │   ├── vault-door-1.md
+│   │   │   ├── vault-door-3.md
+│   │   │   ├── vault-door-4.md
+│   │   │   ├── vault-door-5.md
+│   │   │   ├── vault-door-6.md
+│   │   │   └── vault-door-training.md
+│   │   └── Web_Exploitation
+│   │       ├── Client-side-again.md
+│   │       ├── dont-use-client-side.md
+│   │       ├── Insp3ct0r.md
+│   │       ├── Irish-Name-Repo_1.md
+│   │       ├── Irish-Name-Repo_2.md
+│   │       ├── logon.md
+│   │       ├── Network_conditions_tab_in_DevTools.png
+│   │       ├── picobrowser.md
+│   │       ├── README.md
+│   │       └── where_are_the_robots.md
+│   ├── picoCTF_2020
+│   │   ├── Forensics
+│   │   │   └── Pitter_Patter_Platters.md
+│   │   ├── README.md
+│   │   └── Web_Exploitation
+│   │       └── Web_Gauntlet.md
+│   ├── picoCTF_2021
+│   │   ├── Binary_Exploitation
+│   │   │   ├── Heres_a_LIBC.md
+│   │   │   ├── README.md
+│   │   │   └── Stonks.md
+│   │   ├── Cryptography
+│   │   │   ├── Dachshund_Attacks.md
+│   │   │   ├── Easy_Peasy.md
+│   │   │   ├── Mind_your_Ps_and_Qs.md
+│   │   │   ├── Mini_RSA.md
+│   │   │   ├── Mod_26.md
+│   │   │   ├── New_Caesar.md
+│   │   │   ├── No_Padding_No_Problem.md
+│   │   │   ├── Pixelated.md
+│   │   │   ├── Play_Nice.md
+│   │   │   └── README.md
+│   │   ├── Forensics
+│   │   │   ├── Booting_disk_in_Qemu.png
+│   │   │   ├── Disk_disk_sleuth_II.md
+│   │   │   ├── Disk_disk_sleuth.md
+│   │   │   ├── information.md
+│   │   │   ├── MacroHard_WeakEdge.md
+│   │   │   ├── Matryoshka_doll.md
+│   │   │   ├── Milkslap.md
+│   │   │   ├── README.md
+│   │   │   ├── Surfing_the_Waves.md
+│   │   │   ├── Trivial_Flag_Transfer_Protocol.md
+│   │   │   ├── tunn3l_v1s10n.md
+│   │   │   ├── Wireshark_doo_dooo_do_doo.md
+│   │   │   └── Wireshark_twoo_twooo_two_twoo.md
+│   │   ├── General_Skills
+│   │   │   ├── Magikarp_Ground_Mission.md
+│   │   │   ├── Nice_netcat.md
+│   │   │   ├── Obedient_Cat.md
+│   │   │   ├── Python_Wrangling.md
+│   │   │   ├── README.md
+│   │   │   ├── Static_aint_always_noise.md
+│   │   │   ├── Tab_Tab_Attack.md
+│   │   │   └── Wave_a_flag.md
+│   │   ├── README.md
+│   │   ├── Reverse_Engineering
+│   │   │   ├── ARMssembly_0.md
+│   │   │   ├── ARMssembly_1.md
+│   │   │   ├── ARMssembly_2.md
+│   │   │   ├── ARMssembly_3.md
+│   │   │   ├── ARMssembly_4.md
+│   │   │   ├── crackme-py.md
+│   │   │   ├── keygenme-py.md
+│   │   │   ├── README.md
+│   │   │   ├── Shop.md
+│   │   │   ├── speeds_and_feeds.md
+│   │   │   ├── The_flag_in_NC_Viewer.png
+│   │   │   └── Transformation.md
+│   │   └── Web_Exploitation
+│   │       ├── Cookies.md
+│   │       ├── GET_aHEAD.md
+│   │       ├── It_is_my_Birthday.md
+│   │       ├── More_Cookies.md
+│   │       ├── Most_Cookies.md
+│   │       ├── README.md
+│   │       ├── Scavenger_Hunt.md
+│   │       ├── Some_Assembly_Required_1.md
+│   │       ├── Some_Assembly_Required_2.md
+│   │       └── Who_are_you.md
+│   ├── picoCTF_2022
+│   │   ├── Binary_Exploitation
+│   │   │   ├── basic-file-exploit.md
+│   │   │   ├── buffer_overflow_0.md
+│   │   │   ├── buffer_overflow_1.md
+│   │   │   ├── buffer_overflow_2.md
+│   │   │   ├── CVE-XXXX-XXXX.md
+│   │   │   ├── README.md
+│   │   │   └── RPS.md
+│   │   ├── Cryptography
+│   │   │   ├── basic-mod1.md
+│   │   │   ├── basic-mod2.md
+│   │   │   ├── credstuff.md
+│   │   │   ├── morse-code.md
+│   │   │   ├── rail-fence.md
+│   │   │   ├── README.md
+│   │   │   ├── substitution0.md
+│   │   │   ├── substitution1.md
+│   │   │   ├── substitution2.md
+│   │   │   ├── transposition-trial.md
+│   │   │   └── Vigenere.md
+│   │   ├── Forensics
+│   │   │   ├── Disk_mounted_in_FTK_Imager.png
+│   │   │   ├── Enhance.md
+│   │   │   ├── File_types.md
+│   │   │   ├── Lookey_here.md
+│   │   │   ├── Packets_Primer.md
+│   │   │   ├── README.md
+│   │   │   ├── Redaction_gone_wrong.md
+│   │   │   ├── Sleuthkit_Apprentice.md
+│   │   │   └── Sleuthkit_Intro.md
+│   │   ├── README.md
+│   │   ├── Reverse_Engineering
+│   │   │   ├── bloat.py.md
+│   │   │   ├── file-run1.md
+│   │   │   ├── file-run2.md
+│   │   │   ├── Fresh_Java.md
+│   │   │   ├── GDB_Layout_Asm.png
+│   │   │   ├── GDB_Test_Drive.md
+│   │   │   ├── jadx-gui_decompilation.png
+│   │   │   ├── patchme.py.md
+│   │   │   ├── README.md
+│   │   │   ├── Safe_Opener.md
+│   │   │   └── unpackme.py.md
+│   │   └── Web_Exploitation
+│   │       ├── Forbidden_Paths.md
+│   │       ├── Includes.md
+│   │       ├── Inspect_HTML.md
+│   │       ├── Local_Authority.md
+│   │       ├── Power_Cookie.md
+│   │       ├── README.md
+│   │       ├── Roboto_Sans.md
+│   │       ├── Search_source.md
+│   │       └── Secrets.md
+│   ├── picoCTF_2023
+│   │   ├── Binary_Exploitation
+│   │   │   ├── babygame01.md
+│   │   │   ├── hijacking.md
+│   │   │   ├── README.md
+│   │   │   ├── tic-tac.md
+│   │   │   ├── Twos_complement.png
+│   │   │   ├── two-sum.md
+│   │   │   └── VNE.md
+│   │   ├── Cryptography
+│   │   │   ├── HideToSee.md
+│   │   │   ├── README.md
+│   │   │   ├── ReadMyCert.md
+│   │   │   └── rotation.md
+│   │   ├── Forensics
+│   │   │   ├── FindAndOpen.md
+│   │   │   ├── hideme.md
+│   │   │   ├── Invisible_WORDs.md
+│   │   │   ├── MSB.md
+│   │   │   ├── PcapPoisoning.md
+│   │   │   ├── README.md
+│   │   │   └── StegSolve_MSB_data_extraction.png
+│   │   ├── General_Skills
+│   │   │   ├── chrono.md
+│   │   │   ├── Permissions.md
+│   │   │   ├── README.md
+│   │   │   ├── repetitions.md
+│   │   │   ├── Specialer.md
+│   │   │   ├── Special.md
+│   │   │   └── useless.md
+│   │   ├── README.md
+│   │   ├── Reverse_Engineering
+│   │   │   ├── README.md
+│   │   │   ├── Ready_Gladiator_0.md
+│   │   │   ├── Ready_Gladiator_1.md
+│   │   │   ├── Ready_Gladiator_2.md
+│   │   │   ├── Reverse.md
+│   │   │   ├── Safe_Opener_2.md
+│   │   │   ├── The_Black_Box_in_Blender.png
+│   │   │   ├── timer.md
+│   │   │   └── Virtual_Machine_0.md
+│   │   └── Web_Exploitation
+│   │       ├── findme.md
+│   │       ├── MatchTheRegex.md
+│   │       ├── More_SQLi_in_Burp_Suite.png
+│   │       ├── More_SQLi.md
+│   │       ├── README.md
+│   │       ├── Redirections_in_the_findme_challenge.png
+│   │       └── SOAP.md
+│   ├── picoCTF_2024
+│   │   ├── Binary_Exploitation
+│   │   │   ├── format_string_0.md
+│   │   │   ├── format_string_1.md
+│   │   │   ├── format_string_2.md
+│   │   │   ├── heap_0.md
+│   │   │   ├── heap_1.md
+│   │   │   ├── heap_2.md
+│   │   │   └── README.md
+│   │   ├── Cryptography
+│   │   │   ├── C3.md
+│   │   │   ├── Custom_encryption.md
+│   │   │   ├── interencdec.md
+│   │   │   └── README.md
+│   │   ├── Forensics
+│   │   │   ├── Blast_from_the_past.md
+│   │   │   ├── CanYouSee.md
+│   │   │   ├── Mob_psycho.md
+│   │   │   ├── README.md
+│   │   │   ├── Scan_Surprise.md
+│   │   │   ├── Secret_of_the_Polyglot.md
+│   │   │   └── Verify.md
+│   │   ├── General_Skills
+│   │   │   ├── Binary_Search.md
+│   │   │   ├── binhexa.md
+│   │   │   ├── Blame_Game.md
+│   │   │   ├── Collaborative_Development.md
+│   │   │   ├── Commitment_Issues.md
+│   │   │   ├── dont-you-love-banners.md
+│   │   │   ├── endianness.md
+│   │   │   ├── README.md
+│   │   │   ├── SansAlpha.md
+│   │   │   ├── Super_SSH.md
+│   │   │   └── Time_Machine.md
+│   │   ├── README.md
+│   │   ├── Reverse_Engineering
+│   │   │   ├── FactCheck.md
+│   │   │   ├── packer.md
+│   │   │   └── README.md
+│   │   └── Web_Exploitation
+│   │       ├── Bookmarklet.md
+│   │       ├── Images
+│   │       │   └── Bookmarklet_Web_Site.png
+│   │       ├── IntroToBurp.md
+│   │       ├── README.md
+│   │       ├── Trickster.md
+│   │       ├── Unminify.md
+│   │       └── WebDecode.md
+│   ├── picoCTF_2025
+│   │   ├── Binary_Exploitation
+│   │   │   ├── PIE_TIME.md
+│   │   │   └── README.md
+│   │   ├── Cryptography
+│   │   │   ├── EVEN_RSA_CAN_BE_BROKEN.md
+│   │   │   ├── hashcrack.md
+│   │   │   └── README.md
+│   │   ├── Forensics
+│   │   │   ├── Images
+│   │   │   │   └── Info_encoded_in_RED.png
+│   │   │   ├── Ph4nt0m_1ntrud3r.md
+│   │   │   ├── README.md
+│   │   │   └── RED.md
+│   │   ├── General_Skills
+│   │   │   ├── FANTASY_CTF.md
+│   │   │   ├── README.md
+│   │   │   ├── Rust_fixme_1.md
+│   │   │   ├── Rust_fixme_2.md
+│   │   │   └── Rust_fixme_3.md
+│   │   ├── README.md
+│   │   ├── Reverse_Engineering
+│   │   │   ├── Flag_Hunters.md
+│   │   │   └── README.md
+│   │   └── Web_Exploitation
+│   │       ├── Cookie_Monster_Secret_Recipe.md
+│   │       ├── head-dump.md
+│   │       ├── Images
+│   │       │   ├── Cookie_Monster.png
+│   │       │   ├── head-dump.png
+│   │       │   ├── Heapdump_endpoint_info.png
+│   │       │   ├── NoSanity_1.png
+│   │       │   ├── Pachinko_NAND_Simulator.png
+│   │       │   └── SSTI_Decision_Tree.png
+│   │       ├── n0s4n1ty_1.md
+│   │       ├── Pachinko.md
+│   │       ├── README.md
+│   │       └── SSTI1.md
+│   ├── picoctf_logo.png
+│   ├── picoGym_Exclusive
+│   │   ├── Binary_Exploitation
+│   │   │   ├── Local_Target.md
+│   │   │   └── README.md
+│   │   ├── Forensics
+│   │   │   ├── Name_of_SSID_Field_in_Wireshark.png
+│   │   │   ├── README.md
+│   │   │   └── WPA-ing_Out.md
+│   │   ├── General_Skills
+│   │   │   ├── ASCII_Numbers.md
+│   │   │   ├── Big_Zip.md
+│   │   │   ├── First_Find.md
+│   │   │   └── README.md
+│   │   ├── README.md
+│   │   ├── Reverse_Engineering
+│   │   │   ├── ASCII_FTW.md
+│   │   │   ├── Bit-O-Asm-1.md
+│   │   │   ├── Bit-O-Asm-2.md
+│   │   │   ├── Bit-O-Asm-3.md
+│   │   │   ├── Bit-O-Asm-4.md
+│   │   │   ├── GDB_baby_step_1.md
+│   │   │   ├── GDB_baby_step_2.md
+│   │   │   ├── GDB_baby_step_3.md
+│   │   │   ├── GDB_baby_step_4.md
+│   │   │   ├── Picker_III.md
+│   │   │   ├── Picker_II.md
+│   │   │   ├── Picker_I.md
+│   │   │   ├── Picker_IV.md
+│   │   │   └── README.md
+│   │   └── Web_Exploitation
+│   │       ├── JAuth.md
+│   │       ├── README.md
+│   │       └── The_Token_Cookie_in_DevTools.png
+│   ├── picoMini_by_redpwn
+│   │   ├── Binary_Exploitation
+│   │   │   ├── clutter-overflow.md
+│   │   │   └── README.md
+│   │   ├── Cryptography
+│   │   │   ├── README.md
+│   │   │   ├── spelling-quiz.md
+│   │   │   ├── triple-secure.md
+│   │   │   └── XtraORdinary.md
+│   │   ├── Forensics
+│   │   │   ├── advanced-potion-making.md
+│   │   │   └── README.md
+│   │   ├── README.md
+│   │   ├── Reverse_Engineering
+│   │   │   ├── not_crypto.md
+│   │   │   └── README.md
+│   │   └── Web_Exploitation
+│   │       ├── caas.md
+│   │       ├── login.md
+│   │       └── README.md
+│   └── README.md
+├── ScienceDirect_articles_02Aug2025_22-28-30.687
+│   ├── CSEC--framework-assessment-dataset--Expert-evaluations-of-cyber_2023_Data-in.pdf
+│   ├── Cyber-ranges-and-security-testbeds--Scenarios--functions-_2020_Computers---S.pdf
+│   ├── Design-and-Evaluation-of-COFELET-based-Approaches-for-Cybe_2021_Computers---.pdf
+│   ├── Design-recommendations-for-online-cybersecurity-cour_2019_Computers---Securi.pdf
+│   ├── Holistic-cyber-hygiene-education--Accounting-for-the-h_2020_Computers---Secu.pdf
+│   └── Understanding-key-skills-for-informatio_2018_International-Journal-of-Inform.pdf
+├── Using Large Language Models for Cybersecurity Capture-The-Flag Challenges and Certification Questions.pdf
+└── WriteUps
+    ├── HackTheBox
+    │   ├── 10configPHPpage.PNG
+    │   ├── 11newConfigPHPfile.PNG
+    │   ├── 1Webpage.PNG
+    │   ├── 2Webpage.PNG
+    │   ├── 3CreateAccount.PNG
+    │   ├── 4Status.PNG
+    │   ├── 5Logs.PNG
+    │   ├── 6Files.PNG
+    │   ├── 7nmapScan.PNG
+    │   ├── 8Hydra.PNG
+    │   └── 9SiteBackup.PNG
+    ├── ImmersiveLabs
+    │   ├── BurpSuiteBasicsHTTPS.md
+    │   ├── calculator.py
+    │   ├── HydraBruteForce.md
+    │   ├── images
+    │   │   ├── BurpLabs.PNG
+    │   │   ├── HTTPParametersAndIPCookieShowApplicationTab.PNG
+    │   │   ├── HTTPParametersAndIPCookieShow.PNG
+    │   │   ├── HTTPParametersAndIP.PNG
+    │   │   ├── HTTPParametersAndIPSecretNetworkConditions.PNG
+    │   │   ├── HydraHelp.PNG
+    │   │   ├── HydraJimmy.PNG
+    │   │   ├── HydraTime.PNG
+    │   │   ├── ILLeaderboard.png
+    │   │   ├── LinuxWC.PNG
+    │   │   ├── ManipulateText
+    │   │   │   ├── AwkCommand.PNG
+    │   │   │   ├── SedCommand.PNG
+    │   │   │   ├── TRCommandBracketsAndUpper.PNG
+    │   │   │   └── TrCommandPunct.PNG
+    │   │   ├── MetasploitLabs.PNG
+    │   │   ├── PasswordHashesII.PNG
+    │   │   ├── RegexNumCountries.PNG
+    │   │   ├── SnortLabs.PNG
+    │   │   └── Splunk
+    │   │       ├── AccountBeginningWS.PNG
+    │   │       ├── AdminORFailed.PNG
+    │   │       ├── Buttercup.PNG
+    │   │       ├── djohnsonSSHSession.PNG
+    │   │       ├── FailedPswdIP.PNG
+    │   │       ├── IPAddress.PNG
+    │   │       ├── RootUsersPWD.PNG
+    │   │       ├── SplunkIncidentIP.PNG
+    │   │       ├── SplunkIP.PNG
+    │   │       └── UserRoot.PNG
+    │   ├── IntroToSplunk.md
+    │   ├── IREp1-SuspicousEmail.txt
+    │   ├── LinuxWC.md
+    │   ├── ManipulatingText.md
+    │   ├── Msfvenom.md
+    │   ├── NationalSoftwareReferenceLibrary.md
+    │   ├── PasswordHashesII.md
+    │   ├── README.md
+    │   ├── Regex.md
+    │   ├── S3SecurityPermissions.md
+    │   ├── SnortRulesEp1.md
+    │   ├── SnortRulesEp2.md
+    │   ├── SnortRulesEp3.md
+    │   ├── SpaceAfterFilename.md
+    │   ├── SplunkEventAnalysis.md
+    │   ├── SQLInjectionUnion.txt
+    │   ├── TheBombeMachine.txt
+    │   └── XSLScriptProcessing.md
+    ├── LICENSE
+    ├── NICEChallenge
+    │   ├── 17InternsAndHROnTheDomainController
+    │   │   └── README.md
+    │   ├── 18LinuxAdministration201
+    │   │   ├── images
+    │   │   │   ├── DomainController.PNG
+    │   │   │   ├── KaliNetworking.PNG
+    │   │   │   ├── NICEChallengeSubmissions.PNG
+    │   │   │   ├── OM-map.jpg
+    │   │   │   └── VMsAvailableAndChecks.PNG
+    │   │   └── README.md
+    │   ├── 1NetworkingAnomalies
+    │   │   ├── Checks.PNG
+    │   │   ├── MachinesAvailable.PNG
+    │   │   ├── Meeting.PNG
+    │   │   ├── OM2-map.jpg
+    │   │   └── SecurityDesktop.PNG
+    │   ├── 23LocalAdminNoMore-SecurityByDesign
+    │   │   ├── images
+    │   │   │   ├── DasAdminEnforced.PNG
+    │   │   │   ├── DasSecGroup.PNG
+    │   │   │   ├── DasSecGroupTechAdmins.PNG
+    │   │   │   ├── DeleteMembers.PNG
+    │   │   │   ├── DomainBuiltIn.PNG
+    │   │   │   ├── NICESecurityByDesign.PNG
+    │   │   │   ├── RestrictedGroups.PNG
+    │   │   │   ├── RestrictedGroupsThroughComputerConfig.PNG
+    │   │   │   └── VMsAvailableAndChecks.PNG
+    │   │   └── README.md
+    │   ├── 24DangerousDrives
+    │   │   ├── images
+    │   │   │   ├── ClamWinFreeAntivirusScan.PNG
+    │   │   │   ├── ClamWinFree.PNG
+    │   │   │   ├── DeleteValentine.PNG
+    │   │   │   ├── Meeting.PNG
+    │   │   │   ├── NICEChallenge25Green.PNG
+    │   │   │   ├── OM-map.jpg
+    │   │   │   ├── ScanComplete.PNG
+    │   │   │   └── ShowHidden.PNG
+    │   │   └── README.md
+    │   ├── 25InsiderThreat
+    │   │   ├── images
+    │   │   │   ├── 1AllRemovableStorageClasses.PNG
+    │   │   │   ├── 1TimeInSec.PNG
+    │   │   │   ├── 2ExternalMediaTimeToForceReboot.PNG
+    │   │   │   ├── 3Disable.PNG
+    │   │   │   ├── 3GroupPolicyTree.PNG
+    │   │   │   ├── 4RemoveRun.PNG
+    │   │   │   ├── 4UserConfig.PNG
+    │   │   │   ├── Meeting.PNG
+    │   │   │   ├── NICEChallengeSubmission.PNG
+    │   │   │   ├── OM-map.jpg
+    │   │   │   └── VMsAvailableAndChecks.PNG
+    │   │   └── README.md
+    │   ├── 26PenetrationTesting-Passwords
+    │   │   ├── images
+    │   │   │   ├── AccountNeverExpires.PNG
+    │   │   │   ├── ADUSers.PNG
+    │   │   │   ├── ChangeAtNextLogin.PNG
+    │   │   │   ├── FoundUsers.PNG
+    │   │   │   ├── HydraLDAP2.PNG
+    │   │   │   ├── HydraRunning.PNG
+    │   │   │   ├── HydraSMB.PNG
+    │   │   │   ├── Meeting.PNG
+    │   │   │   ├── NICEChallengeSubmission.PNG
+    │   │   │   ├── OM-map.jpg
+    │   │   │   ├── SCPCommand1.png
+    │   │   │   ├── SCPCommand.PNG
+    │   │   │   ├── SecurityDeskSCP.PNG
+    │   │   │   ├── TRCommand.png
+    │   │   │   ├── USers.PNG
+    │   │   │   └── VMs-available.PNG
+    │   │   └── README.md
+    │   ├── 27ExecutableExcavation
+    │   │   ├── images
+    │   │   │   ├── 1SubmitIRForm.PNG
+    │   │   │   ├── CatExploit.PNG
+    │   │   │   ├── IRFormSubmission.PNG
+    │   │   │   ├── JoesResultIPAddress.PNG
+    │   │   │   ├── JoesSandbox.PNG
+    │   │   │   ├── NetReflectorIP.PNG
+    │   │   │   ├── NetReflector.PNG
+    │   │   │   ├── OM-map.jpg
+    │   │   │   ├── Report.PNG
+    │   │   │   ├── ReportReverseShell.PNG
+    │   │   │   ├── SetATimer.PNG
+    │   │   │   └── URLToFileServer.PNG
+    │   │   └── README.md
+    │   ├── 28DigitalDuplicates
+    │   │   ├── images
+    │   │   │   ├── meeting.PNG
+    │   │   │   ├── OM-map.jpg
+    │   │   │   ├── SecDeskForensicImageCreation.PNG
+    │   │   │   ├── SecDeskGrepSD.PNG
+    │   │   │   ├── SecDeskVerifySHA512.PNG
+    │   │   │   └── VMsAvailable.PNG
+    │   │   └── README.md
+    │   ├── 29ProperlyPrioritizedWebWatching
+    │   │   └── README.md
+    │   ├── 30ConflictInTheConfig
+    │   │   ├── images
+    │   │   │   ├── JoomlaWebsiteFirewall.PNG
+    │   │   │   ├── meeting1.PNG
+    │   │   │   ├── meeting2.PNG
+    │   │   │   ├── PD-map.jpg
+    │   │   │   ├── prodJoomlaCatSyslog.PNG
+    │   │   │   ├── ProdJoomlaVarLog.PNG
+    │   │   │   └── VMs-available.PNG
+    │   │   └── README.md
+    │   ├── 32LinuxAdministration101
+    │   │   ├── images
+    │   │   │   ├── checkUserExists.PNG
+    │   │   │   ├── EditSudoers.PNG
+    │   │   │   ├── finalChecks.PNG
+    │   │   │   ├── meeting.PNG
+    │   │   │   ├── OM-map.jpg
+    │   │   │   ├── passwd.PNG
+    │   │   │   ├── VMs-available.PNG
+    │   │   │   ├── yumComplete.PNG
+    │   │   │   └── yumUpdate.PNG
+    │   │   └── README.md
+    │   ├── 33FirewallUpdate
+    │   │   ├── images
+    │   │   │   ├── checks2.PNG
+    │   │   │   ├── checks.PNG
+    │   │   │   ├── FileShareUpdateSSH.PNG
+    │   │   │   ├── InstallNFTablesFileShare.PNG
+    │   │   │   ├── InstallNFTables.PNG
+    │   │   │   ├── Meeting.PNG
+    │   │   │   ├── PD-map.jpg
+    │   │   │   ├── RMiptables.PNG
+    │   │   │   ├── RMiptablesProdJoomla.PNG
+    │   │   │   ├── SaveLogs.PNG
+    │   │   │   └── VMs-available.PNG
+    │   │   └── README.md
+    │   ├── 34SystemsSecurityAnalystCrashCourse
+    │   │   ├── images
+    │   │   │   ├── Checks.PNG
+    │   │   │   ├── Hydra.PNG
+    │   │   │   ├── Meeting1.PNG
+    │   │   │   ├── Meeting.PNG
+    │   │   │   ├── OM-map.jpg
+    │   │   │   └── VMs-available.PNG
+    │   │   └── README.md
+    │   ├── 35SecurityBegins
+    │   │   ├── images
+    │   │   │   ├── Meeting.PNG
+    │   │   │   ├── OM-map.jpg
+    │   │   │   └── VMs-available.PNG
+    │   │   └── README.md
+    │   ├── 3SystemsAdministrationCyberEdition
+    │   │   └── images
+    │   │       ├── Meeting1.PNG
+    │   │       └── Meeting.PNG
+    │   ├── 6NetworkAnomalies
+    │   │   └── PD-map.jpg
+    │   ├── 7HelpdeskFunDrivesandWebApps
+    │   │   ├── images
+    │   │   │   ├── BackupFindApache.PNG
+    │   │   │   ├── CheckMarks.PNG
+    │   │   │   ├── Checks.PNG
+    │   │   │   ├── GillyBates.PNG
+    │   │   │   ├── InsideApache2.PNG
+    │   │   │   ├── ledgersmbDotConFile.PNG
+    │   │   │   ├── ledgersmbDotConFileTo8080.PNG
+    │   │   │   ├── Meeting.PNG
+    │   │   │   ├── OM2-map.jpg
+    │   │   │   ├── RestartApache2Server.PNG
+    │   │   │   ├── SystemCTLBackUp.PNG
+    │   │   │   ├── SystemCTLStartAttempt.PNG
+    │   │   │   ├── VMs-available.PNG
+    │   │   │   ├── WorkstationMap.PNG
+    │   │   │   ├── WorkstationMaptoR.PNG
+    │   │   │   └── Workstation.PNG
+    │   │   └── README.md
+    │   ├── 8LengthyLogsAttackAnalysis
+    │   │   ├── images
+    │   │   │   ├── BackupSCPCommand.PNG
+    │   │   │   ├── CVEInfo.PNG
+    │   │   │   ├── FinalChecks.PNG
+    │   │   │   ├── IncidentReportSite.PNG
+    │   │   │   ├── IRFormRespons11.PNG
+    │   │   │   ├── IRFormResponse1.PNG
+    │   │   │   ├── IRFormResponse2.PNG
+    │   │   │   ├── IRFormResultsPage1.PNG
+    │   │   │   ├── IRFormResultsPage.PNG
+    │   │   │   ├── IRSiteLogin.PNG
+    │   │   │   ├── LocateDatabaseFile.PNG
+    │   │   │   ├── LoginBackup.PNG
+    │   │   │   ├── Meeting1.PNG
+    │   │   │   ├── Meeting2.PNG
+    │   │   │   ├── Meeting.PNG
+    │   │   │   ├── MysqlLog.PNG
+    │   │   │   ├── NICEChallengestate.PNG
+    │   │   │   ├── OM2-map.jpg
+    │   │   │   ├── PowershellAllDeletedUsers.PNG
+    │   │   │   ├── PowershellDeleteFrom2.PNG
+    │   │   │   ├── PowershellDeleteFrom.PNG
+    │   │   │   ├── PowershellGrepLogin.PNG
+    │   │   │   ├── PowershellLoginAymous.PNG
+    │   │   │   ├── PowershellQueryDelete.PNG
+    │   │   │   ├── PowershellQueryInjection.PNG
+    │   │   │   ├── PowershellQuery.PNG
+    │   │   │   ├── PowerShellWhere1is1.PNG
+    │   │   │   ├── SecurityDesk.PNG
+    │   │   │   ├── SecurityDeskWordpressMeta.PNG
+    │   │   │   ├── SecurityDeskWordpressNickname.PNG
+    │   │   │   └── VMs-available.PNG
+    │   │   └── README.md
+    │   ├── DangerousDrivesComplexity2.PNG
+    │   ├── Event
+    │   │   ├── DangerousDrives.png
+    │   │   ├── NICE27.png
+    │   │   ├── NICE28a.png
+    │   │   ├── NICE28.png
+    │   │   ├── NICE29.png
+    │   │   ├── NICE30.png
+    │   │   ├── NICE31.png
+    │   │   ├── NICE32.png
+    │   │   ├── NICE33.png
+    │   │   ├── NICE34.png
+    │   │   ├── NICE36.png
+    │   │   ├── NICE7.png
+    │   │   ├── NICE8.png
+    │   │   ├── NICE9.png
+    │   │   └── NICEChallenge25.png
+    │   ├── README.md
+    │   └── template
+    │       └── README.md
+    ├── OverTheWire
+    │   └── Bandit
+    │       └── images
+    │           ├── 0Bandit0.PNG
+    │           ├── 10BanditStringsGrep.PNG
+    │           ├── 11BanditBase64.PNG
+    │           ├── 12BanditRot13TR.PNG
+    │           ├── 1Bandit.PNG
+    │           ├── 2Bandit.PNG
+    │           ├── 3BanditSpaces.PNG
+    │           ├── 4BanditHidden.PNG
+    │           ├── 5BanditHuman.PNG
+    │           ├── 5humanreadable.PNG
+    │           ├── 6banditGrepDUPipe.PNG
+    │           ├── 7BanditUserGroup.PNG
+    │           ├── 8BanditGrep.PNG
+    │           └── 9BanditGrepUnique.PNG
+    └── README.md
+
+245 directories, 2044 files
