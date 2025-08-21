@@ -10,7 +10,7 @@ class BilkerConfig:
     # Data processing
     MAX_CHUNK_SIZE = 4000
     OVERLAP_SIZE = 200
-    LOCAL_MODEL = "llama3.1:8b"
+    LOCAL_MODEL = "deepseek-r1:32b"
 
     # Paths
     DATA_DIR = Path("data")

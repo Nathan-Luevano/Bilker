@@ -32,15 +32,14 @@ def check_ollama():
         if response.status_code == 200:
             print("[OK] Ollama server running")
             
-            # Check if llama3.1:8b is available
             models = response.json().get('models', [])
             model_names = [model['name'] for model in models]
             
-            if any('llama3.1:8b' in name for name in model_names):
+            if any('deepseek-r1:32b' in name for name in model_names):
                 return True
             else:
-                print("[ERROR] llama3.1:8b model not found")
-                print("Run: ollama pull llama3.1:8b")
+                print("[ERROR] deepseek-r1:32b model not found")
+                print("Run: ollama pull deepseek-r1:32b")
                 return False
         else:
             print("[ERROR] Ollama server not responding")

@@ -20,7 +20,7 @@ class ChunkProcessor:
         self.chunks_dir = Path("processed/chunks")
         self.formatted_dir = Path("processed/formatted")
         self.ollama_url = "http://localhost:11434"
-        self.model = "llama3.1:8b"
+        self.model = "deepseek-r1:32b"
         
         # Stats
         self.stats = {
